@@ -1,12 +1,14 @@
 body {
-  background: #FFFFFF;
+  background: #fff;
   position: relative;
   width: 375px;
   /* height: 6715px; */
 }
-position: absolute;
+.top-header{
+  position: absolute;
 width: 375px;
 height: 44px;
 left: calc(50% - 375px/2);
 top: 0px;
+}
   
