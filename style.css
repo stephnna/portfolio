@@ -13,11 +13,11 @@ body {
 .container {
   background-color: white;
 }
-.top-header{
+.top-header {
   display: flex; 
   justify-content: space-between;
 }
-.bottom-header{
+.bottom-header {
   display: flex; 
   justify-content: space-between;
 }
@@ -27,12 +27,12 @@ main {
   padding: 100px;
   text-align: center;
 }
-.first-name{
+.first-name {
   color: #172B4D;  
   font-weight: 600;
   font-size: 30px;
 }
-.software-dev{
+.software-dev {
   font-weight: 600;
   font-size: 30px;
   color: rgb(7, 169, 7);  
@@ -44,7 +44,4 @@ main {
 }
 .paragraph {
   margin-bottom: 64px;
-}
-arrow {
-  font-weight: 800;
 }
