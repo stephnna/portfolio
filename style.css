@@ -35,6 +35,16 @@ main {
 .software-dev{
   font-weight: 600;
   font-size: 30px;
-  color: green;  
+  color: rgb(7, 169, 7);  
 }
-  
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.paragraph {
+  margin-bottom: 64px;
+}
+arrow {
+  font-weight: 800;
+}
