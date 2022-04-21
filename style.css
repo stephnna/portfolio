@@ -1,5 +1,5 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
   border: 5px solid blue;
@@ -7,7 +7,7 @@ body {
   margin-left: 500px;
   margin-top: 0;
   min-height: 100vh;
-  font-family: 'Inter';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
 }
 .container {
