@@ -6,7 +6,7 @@ body {
   margin-right: 500px;
   margin-left: 500px;
   margin-top: 0;
-  min-height: 100vh;
+  min-height: 50vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
 }
@@ -16,16 +16,31 @@ body {
 .top-header {
   display: flex; 
   justify-content: space-between;
+  margin-top: 16px;
+  margin-right: 8px;
+  margin-left: 16px;
+}
+span {
+  content: "\2261";
 }
 .bottom-header {
   display: flex; 
   justify-content: space-between;
+  margin-left: 12px;
+  margin-right: 40px;
+  align-items: center;  
+}
+.identical-to {
+  font-size: 48px;
 }
 main {
   display: flex;
   flex-direction: column;
-  padding: 100px;
   text-align: center;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-size: 100% 100%;
+  padding: 58px;
 }
 .first-name {
   color: #172B4D;  
@@ -35,13 +50,27 @@ main {
 .software-dev {
   font-weight: 600;
   font-size: 30px;
-  color: rgb(7, 169, 7);  
+  color: #36b37e;  
 }
 .social {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
+}
+.social-img:hover {
+  border: 2px solid rgb(13, 13, 163);
+  border-radius: 50%;  
 }
 .paragraph {
   margin-bottom: 64px;
+}
+.arrow-flex {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+}
+.arrow:hover {
+  border: 2px solid #acb7c3;
+  border-radius: 50%;
+  color: blue;  
 }
