@@ -131,7 +131,6 @@ ul {
 .language {
   justify-content: space-evenly;
   flex-wrap: wrap;
-  column-gap: 10px;
   row-gap: 10px;
 }
 
@@ -188,4 +187,9 @@ ul {
   border-radius: 4px;
   padding: 12px;
   color: #36b37e;
+}
+
+.buttom-pad {
+  padding-bottom: 20px;
+  padding-top: 70px;
 }
