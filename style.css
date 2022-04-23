@@ -111,7 +111,8 @@ ul {
 .language {
   justify-content: space-evenly; 
   flex-wrap: wrap; 
-  column-gap: 10px;   
+  column-gap: 10px;
+  row-gap: 10px;   
 }
 .see-project {
   background-color: #36b37f;
