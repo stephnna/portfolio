@@ -80,8 +80,21 @@ ul {
 
 /* Recent Work Session */
 
+.container-recent {
+  display: grid;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 52px;
+}
+
 .container-recent > .grid-project {
   background-color: #d0d9d4;
+  border-radius: 8px;
+}
+
+.multi-post {
+  background-color: white;
   border-radius: 8px;
 }
 
