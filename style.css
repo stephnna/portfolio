@@ -11,11 +11,11 @@ body {
 .intro {
   background-image: url('images/background.png');
   flex-direction: column;
-  text-align: center;  
+  text-align: center;
   background-size: cover;
   background-size: 100% 100%;
   padding: 58px;
-} 
+}
 
 .top-header {
   justify-content: space-between;
@@ -35,6 +35,7 @@ body {
   font-size: 40px;
   width: 2px;
 }
+
 .first-name {
   font-weight: 700px;
   font-size: 40px;
@@ -76,28 +77,17 @@ body {
 ul {
   list-style-type: none;
 }
+
 /* Recent Work Session */
-.container-recent {
-  display: grid;
-  grid-gap: 10px;  
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 52px;
-}
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;    
+  border-radius: 8px;
 }
 
 .project-1 {
   flex-direction: column;
   text-align: center;
-  }
-
-.multi-post {
-  background-color: white;
-  border-radius: 8px; 
 }
 
 .multi-text-color {
@@ -111,13 +101,6 @@ ul {
   padding-top: 252px;
 }
 
-.language {
-  justify-content: space-evenly; 
-  flex-wrap: wrap; 
-  column-gap: 10px;
-  row-gap: 10px;   
-}
-
 .see-project {
   background-color: #36b37f;
   padding: 16px;
@@ -129,7 +112,21 @@ ul {
 .see-project:hover {
   border-color: blue;
   cursor: pointer;
-  transform: scale(0.9);  
+  transform: scale(0.9);
+}
+
+.language {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.grid-frame-skill {
+  grid-area: auto;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .language-background {
@@ -161,15 +158,6 @@ ul {
 
 .add-bottom-margin {
   margin-bottom: 52px;
-}
-
-.grid-frame-skill {
-  
-  grid-area: auto;
-  grid-gap: 10px;  
-  margin-left: 10px;
-  margin-right: 10px;
-  bo  
 }
 
 .grid-frame-skill > .grid-child-frame-skill {
