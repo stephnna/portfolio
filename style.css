@@ -9,6 +9,15 @@ body {
   display: flex;
 }
 
+.intro {
+  background-image: url('images/background.png');
+  flex-direction: column;
+  text-align: center;  
+  background-size: cover;
+  background-size: 100% 100%;
+  padding: 58px;
+} 
+
 .top-header {
   justify-content: space-between;
   margin-left: 12px;
@@ -27,16 +36,6 @@ body {
   font-size: 40px;
   width: 2px;
 }
-
-main {
-  flex-direction: column;
-  text-align: center;
-  background-image: url('images/background.png');
-  background-size: cover;
-  background-size: 100% 100%;
-  padding: 58px;
-}
-
 .first-name {
   font-weight: 700px;
   font-size: 40px;
@@ -73,4 +72,19 @@ main {
   border: 2px solid #acb7c3;
   border-radius: 50%;
   color: blue;
+}
+ul {
+  list-style-type: none;
+}
+/* Recent Work Session */
+.container-recent {
+  display: grid;
+  grid-template: 150px / auto auto 1;
+  grid-gap: 10px;
+  grid-gap: 10px;
+}
+
+.container-recent > div {
+  background-color: #d0d9d4;
+
 }
