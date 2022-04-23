@@ -78,7 +78,6 @@ ul {
 /* Recent Work Session */
 .container-recent {
   display: grid;
-  grid-template: auto / auto auto 1;
   grid-gap: 10px;  
   margin-left: 10px;
   margin-right: 10px;
@@ -86,7 +85,8 @@ ul {
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;  
+  border-radius: 8px; 
+  margin-bottom: 52px; 
 }
 .project-1 {
   flex-direction: column;
@@ -145,9 +145,20 @@ ul {
   font-weight: 700px;
   font-size: 40px;
 }
-.about-message {
-  display: flex;
+
+.about-message {  
   font-size: 20px;
-  color: #42526e;
-      
+  color: #42526e;     
+}
+
+.grid-frame-skill {
+  display: grid;
+  grid-gap: 10px;  
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-frame-skill > .grid-child-frame-skill {
+  background-color: #d0d9d4;
+  border-radius: 8px;  
 }
