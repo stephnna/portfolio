@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 
 body {
-  font-family: Inter, Helvetica, Geneva, sans-serif;
-  padding: 64px, 24px, 64px, 24px;
+  font-family: Inter, Helvetica, Geneva, sans-serif; 
 }
 
 .display-flex {
@@ -79,12 +78,76 @@ ul {
 /* Recent Work Session */
 .container-recent {
   display: grid;
-  grid-template: 150px / auto auto 1;
-  grid-gap: 10px;
-  grid-gap: 10px;
+  grid-template: auto / auto auto 1;
+  grid-gap: 10px;  
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.container-recent > div {
+.container-recent > .grid-project {
   background-color: #d0d9d4;
+  border-radius: 8px;  
+}
+.project-1 {
+  flex-direction: column;
+  text-align: center;
+  }
+.multi-post {
+  background-color: white;
+  border-radius: 8px; 
+}
 
+.multi-text-color {
+  font-weight: 600px;
+  font-size: 24px;
+  color: #3a4a42;
+}
+
+.gray-container {
+  background-color: #d0d9d4;
+  padding-top: 252px;
+}
+
+.language {
+  justify-content: space-evenly;    
+}
+.see-project {
+  background-color: #36b37f;
+  padding: 16px;
+  border-color: #36b37f;
+  border-radius: 4px;
+  color: white;
+}
+.see-project:hover {
+  border-color: blue;
+  cursor: pointer;
+  transform: scale(0.87);
+  
+}
+
+.language-background {
+  background-color: #Ebf0ee;
+  border-radius: 4px;
+  padding: 12px;
+}
+.recent-work {
+  text-align: center;
+  font-weight: 700px;
+  font-size: 40px;
+}
+
+.about-container {
+  text-align: center;
+}
+
+.about-me {
+  color: #172b4d;
+  font-weight: 700px;
+  font-size: 40px;
+}
+.about-message {
+  display: flex;
+  font-size: 20px;
+  color: #42526e;
+      
 }
