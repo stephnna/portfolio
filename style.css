@@ -2,10 +2,14 @@
 
 body {
   font-family: Inter, Helvetica, Geneva, sans-serif;
+  padding: 64px, 24px, 64px, 24px;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .top-header {
-  display: flex;
   justify-content: space-between;
   margin-left: 12px;
   margin-right: 40px;
@@ -25,7 +29,6 @@ body {
 }
 
 main {
-  display: flex;
   flex-direction: column;
   text-align: center;
   background-image: url('images/background.png');
@@ -44,7 +47,6 @@ main {
 }
 
 .social {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
   list-style-type: none;
@@ -63,7 +65,6 @@ main {
 }
 
 .arrow-flex {
-  display: flex;
   font-size: 16px;
   justify-content: center;
 }
