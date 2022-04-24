@@ -86,21 +86,30 @@ ul {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 52px;
+  /* align-items: center; */
+  
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;
+  border-radius: 8px;   
+
 }
 
 .multi-post {
   background-color: white;
   border-radius: 8px;
+  line-height: 8px;
+  padding-top: 12px;
 }
 
-.project-1 {
+.grid-project {
   flex-direction: column;
-  text-align: center;
+  text-align: center; 
+  padding-left: 1.5px;
+  padding-right: 1.5px;
+  padding-bottom: 1.5px;
+  padding-top: 252px;
 }
 
 .multi-text-color {
@@ -109,29 +118,34 @@ ul {
   color: #3a4a42;
 }
 
-.gray-container {
-  background-color: #d0d9d4;
-  padding-top: 252px;
-}
-
 .see-project {
   background-color: #36b37f;
-  padding: 16px;
+  padding: 16px;  
   border-color: #36b37f;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
+  margin-bottom: 16px;
 }
 
-.see-project:hover {
-  border-color: blue;
+.see-project:hover {  
+  background-color: #36b37f;
   cursor: pointer;
+  transform: scale(0.9);
+  border-radius: 16px;
+  box-shadow: 0 8px rgba(54, 179, 127, 0.24);
+ }
+
+.see-project:active {
+  background-color: #008552; 
   transform: scale(0.9);
 }
 
 .language {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  row-gap: 10px;
+  flex-wrap: wrap;  
+  gap: 10px;
+  margin-top: 8px;
+  justify-content: center;
 }
 
 .grid-frame-skill {
@@ -144,7 +158,9 @@ ul {
 .language-background {
   background-color: #ebf0ee;
   border-radius: 4px;
-  padding: 12px;
+  padding: 10px;
+  font-weight: bold;
+  color: #3a4a42;
 }
 
 .recent-work {
@@ -185,11 +201,35 @@ ul {
 .frame-skill-background {
   background-color: white;
   border-radius: 4px;
-  padding: 12px;
+  padding: 4px;
   color: #36b37e;
 }
 
+.skills-pack {
+  border-radius: 50%;
+  background-color: white;
+  padding: 24px;
+}
+
 .buttom-pad {
-  padding-bottom: 20px;
-  padding-top: 70px;
+  padding-bottom: 32px;
+}
+
+.top-padding {
+  padding-top: 58px;  
+}
+
+.skills-pack-font {
+  text-align: center;
+  color:  #344563; 
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
