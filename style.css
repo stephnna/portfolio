@@ -81,18 +81,25 @@ ul {
 /* Recent Work Session */
 
 .container-recent {
-  display: grid;  
+  display: grid;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 52px; 
-  
+  margin-bottom: 52px;
+}
+
+.grid-project {
+  flex-direction: column;
+  text-align: center;
+  padding-left: 1.5px;
+  padding-right: 1.5px;
+  padding-bottom: 1.5px;
+  padding-top: 252px;
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;  
-  margin-top: 10px; 
-
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 .multi-post {
@@ -100,15 +107,6 @@ ul {
   border-radius: 8px;
   line-height: 8px;
   padding-top: 12px;
-}
-
-.grid-project {
-  flex-direction: column;
-  text-align: center; 
-  padding-left: 1.5px;
-  padding-right: 1.5px;
-  padding-bottom: 1.5px;
-  padding-top: 252px;
 }
 
 .multi-text-color {
@@ -119,7 +117,7 @@ ul {
 
 .see-project {
   background-color: #36b37f;
-  padding: 16px;  
+  padding: 16px;
   border-color: #36b37f;
   border-radius: 4px;
   color: white;
@@ -127,25 +125,24 @@ ul {
   margin-bottom: 16px;
 }
 
-.see-project:hover {  
+.see-project:hover {
   background-color: #36b37f;
   cursor: pointer;
   transform: scale(0.9);
   border-radius: 16px;
   box-shadow: 0 8px rgba(54, 179, 127, 0.24);
- }
+}
 
 .see-project:active {
-  background-color: #008552; 
+  background-color: #008552;
   transform: scale(0.9);
 }
 
 .language {
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   column-gap: 10px;
-  margin-top: 8px;  
+  margin-top: 8px;
   justify-content: center;
-  
 }
 
 .grid-frame-skill {
@@ -163,7 +160,6 @@ ul {
   padding: 8px;
   letter-spacing: 3%;
   vertical-align: top;
-
 }
 
 .recent-work {
@@ -180,17 +176,14 @@ ul {
   color: #172b4d;
   font-weight: 700px;
   font-size: 40px;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .skill-flex {
-   flex-wrap: wrap; 
-  gap: 10px; 
- justify-content: center; 
-  padding-bottom:  32px;
-  
-  
-
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 32px;
 }
 
 .about-message {
@@ -200,9 +193,8 @@ ul {
 
 .add-bottom-margin {
   margin-bottom: 52px;
-  letter-spacing: 3%; 
-  font-size: 17px; 
-    
+  letter-spacing: 3%;
+  font-size: 17px;
 }
 
 .grid-frame-skill > .grid-child-frame-skill {
@@ -226,12 +218,12 @@ ul {
 }
 
 .top-padding {
-  padding-top: 58px;  
-} 
+  padding-top: 58px;
+}
 
 .skills-pack-font {
   text-align: center;
-  color:  #344563; 
+  color: #344563;
   font-size: 24px;
   font-weight: 600px;
 }
