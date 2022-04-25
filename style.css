@@ -9,12 +9,12 @@ body {
 }
 
 .intro {
-  background-image: url('images/background.png');
+  background-image: url('images/background.png');  
   flex-direction: column;
   text-align: center;
   background-size: cover;
   background-size: 100% 100%;
-  padding: 58px;
+  padding: 0;  
 }
 
 .top-header {
@@ -82,15 +82,13 @@ ul {
 
 .container-recent {
   display: grid;
+  padding: 0;  
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;
-  margin: 24px; 
-}
-
-.grid-project {
+  border-radius: 8px;  
+  margin: 0 24px 24px 24px;
   flex-direction: column;
   text-align: center;
   padding-left: 1.5px;
@@ -98,7 +96,6 @@ ul {
   padding-bottom: 1.5px;
   padding-top: 252px;
 }
-
 .multi-post {
   background-color: white;
   border-radius: 8px;
@@ -119,7 +116,12 @@ ul {
   border-radius: 4px;
   color: white;
   cursor: pointer;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.get-resume {
+  margin: 0;
+
 }
 
 .see-project:hover {
@@ -157,17 +159,16 @@ ul {
   vertical-align: top;
 }
 
-.recent-work {
-  margin-left: 26px;
-  margin-right: 22px;
-  justify-content: center;  
+.recent-work-align {
   font-weight: bold;
-  font-size: 40px;  
+  font-size: 40px; 
+  text-align: center;  
 }
 
 .dash-flex { 
  color: #36b37e;
-justify-content: center;
+ justify-content: center;
+ margin-bottom: 62px;
 }
 
 .dash {
@@ -185,7 +186,7 @@ justify-content: center;
 .about-me {
   color: #172b4d;
   font-weight: 400px;
-  font-size: 28px;
+  font-size: 40px;
   display: inline-block;
 }
 
@@ -202,17 +203,14 @@ justify-content: center;
   color: #42526e;
 }
 
-.add-bottom-margin {
-  margin-bottom: 52px;
-  letter-spacing: 3%;
-  font-size: 17px;
-}
-
 .grid-frame-skill > .grid-child-frame-skill {
   background-color: #c1c7d0;
   border-radius: 8px;
-  text-align: center; 
+  text-align: center;  
+  padding-top: 40px; 
+  margin: 24px;
 }
+
 
 .frame-skill-background {
   background-color: white;
@@ -225,10 +223,6 @@ justify-content: center;
   border-radius: 50%;
   background-color: white;
   padding: 16px;
-}
-
-.top-padding {
-  padding-top: 58px;
 }
 
 .skills-pack-font {
