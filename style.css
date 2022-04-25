@@ -9,12 +9,12 @@ body {
 }
 
 .intro {
-  background-image: url('images/background.png');  
+  background-image: url('images/background.png');
   flex-direction: column;
   text-align: center;
   background-size: cover;
   background-size: 100% 100%;
-  padding: 0;  
+  padding: 0;
 }
 
 .top-header {
@@ -82,12 +82,12 @@ ul {
 
 .container-recent {
   display: grid;
-  padding: 0;  
+  padding: 0;
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;  
+  border-radius: 8px;
   margin: 0 24px 24px 24px;
   flex-direction: column;
   text-align: center;
@@ -96,6 +96,7 @@ ul {
   padding-bottom: 1.5px;
   padding-top: 252px;
 }
+
 .multi-post {
   background-color: white;
   border-radius: 8px;
@@ -121,7 +122,6 @@ ul {
 
 .get-resume {
   margin: 0;
-
 }
 
 .see-project:hover {
@@ -146,7 +146,7 @@ ul {
 }
 
 .grid-frame-skill {
-    grid-area: auto; 
+  grid-area: auto;
 }
 
 .language-background {
@@ -161,18 +161,18 @@ ul {
 
 .recent-work-align {
   font-weight: bold;
-  font-size: 40px; 
-  text-align: center;  
+  font-size: 40px;
+  text-align: center;
 }
 
-.dash-flex { 
- color: #36b37e;
- justify-content: center;
- margin-bottom: 62px;
+.dash-flex {
+  color: #36b37e;
+  justify-content: center;
+  margin-bottom: 62px;
 }
 
 .dash {
-  font-size: 40px;  
+  font-size: 40px;
 }
 
 .dash:hover {
@@ -206,11 +206,10 @@ ul {
 .grid-frame-skill > .grid-child-frame-skill {
   background-color: #c1c7d0;
   border-radius: 8px;
-  text-align: center;  
-  padding-top: 40px; 
+  text-align: center;
+  padding-top: 40px;
   margin: 24px;
 }
-
 
 .frame-skill-background {
   background-color: white;
