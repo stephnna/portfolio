@@ -9,12 +9,12 @@ body {
 }
 
 .intro {
-  background-image: url('images/background.png');  
+  background-image: url('images/background.png');
   flex-direction: column;
   text-align: center;
   background-size: cover;
   background-size: 100% 100%;
-  padding: 0;  
+  padding: 0;
 }
 
 .top-header {
@@ -82,12 +82,12 @@ ul {
 
 .container-recent {
   display: grid;
-  padding: 0;  
+  padding: 0;
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
-  border-radius: 8px;  
+  border-radius: 8px;
   margin: 0 24px 24px 24px;
   flex-direction: column;
   text-align: center;
@@ -122,7 +122,6 @@ ul {
 
 .get-resume {
   margin: 0;
-
 }
 
 .see-project:hover {
@@ -140,7 +139,7 @@ ul {
 
 .language {
   flex-wrap: wrap;
-  column-gap: 10px; 
+  column-gap: 10px;
   justify-content: center;
   padding-left: 0;
 }
@@ -150,17 +149,18 @@ ul {
 }
 
 .language-background {
-  padding: 8px; 
+  padding: 8px;
   background-color: #ebf0ee;
   border-radius: 4px;
+
   /* font-weight: 400px; */
-  color: #3a4a42;   
+  color: #3a4a42;
 }
 
 .recent-work-align {
   font-weight: bold;
-  font-size: 40px; 
-  text-align: center;  
+  font-size: 40px;
+  text-align: center;
 }
 
 .dash-flex {
