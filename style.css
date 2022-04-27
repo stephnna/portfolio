@@ -67,15 +67,14 @@ body {
   color: #172b4d;
 }
 
-.arrow-flex {
-  font-size: 16px;
-  justify-content: center;
-}
-
-.arrow:hover {
-  border: 2px solid #acb7c3;
-  border-radius: 50%;
-  color: blue;
+.down-arrow {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 32px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 ul {
@@ -157,15 +156,15 @@ ul {
   padding: 8px;
   background-color: #ebf0ee;
   border-radius: 4px;
-
-  /* font-weight: 400px; */
   color: #3a4a42;
 }
 
 .recent-work-align {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 40px;
   text-align: center;
+  color: #172b4d;
+  line-height: 52px;
 }
 
 .dash-flex {
@@ -307,11 +306,30 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-  .intro {
-    background-image: url(./images/background-image-desktop.png);
-    width: 100%;
-    background-size: contain;
-    background-size: 100% 100%;
-    height: 650px;  
-  }   
+
+  .break, .top-header {
+    display: none;
+
   }
+  .intro {
+    background-image: url(./images/background-image.svg);    
+     width: 100%;   
+     background-size: 100% 100%;
+     height: 1000px; 
+  }  
+  
+  .recent-work-align {
+    margin: 24px 0px;
+    color: #172b4d;
+  }
+
+  .container-recent {
+    /* display: grid;  */
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;      
+  }
+
+  /* .grid-frame-skill > .grid-child-frame-skill {
+    grid-area: 1/1/3/4;
+  }
+  } */
