@@ -197,7 +197,7 @@ ul {
   font-weight: 400px;
 }
 
-.about-container .get-resume {
+.about-container .about-background-desktop-image-2 {
   background-image: url(./images/about-background-image-2-mobile.svg);
   background-repeat: no-repeat;
   padding-top: 20px;
@@ -317,7 +317,7 @@ ul {
 
 @media only screen and (min-width: 768px) {
 
-  .break, .top-header {
+  .break, .top-header, .footer-link{
     display: none;
   }
 
@@ -341,15 +341,30 @@ ul {
 
   .container-recent > .grid-project {
    margin-top: 32px;
-  }  
-   
-  .about-container .about-me-desktop-image-1 {
-    background-image: url(./images/about-me-background-1-desktop.svg);   
-   }
+  }    
+  
+  .about-container .about-me {
+    background-image: url(./images/about-me-background-1-desktop.svg); 
+    padding-right: 0;
+   }   
 
-   .about-container .about-message-desktop-2 {
-    background-image: url(./images/about-me-background-2-desktop.svg);   
+   .about-container .about-background-desktop-image-2 {
+    background-image: url(./images/about-me-background-2-desktop.svg);
+    /* background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: ;  */
+   
   } 
+  .about-container  .about-paragraph {
+    padding: 0 259.6px 260px;
+    margin: 0;
+    border:  2px solid rebeccapurple;
+
+  }
+
+  /* .about-container .get-resume {
+    display: none;
+  } */
 
   .grid-frame-skill {
     grid-template-columns: auto auto auto; 
@@ -373,7 +388,34 @@ ul {
 
   }
 
+  .footer .footer-headline { 
+    font-size: 30px;    
+  }
   
+  .desktop-flex {
+    display: flex;
+    border:  2px solid rebeccapurple;
+    /* justify-content: stretch;     */
+    margin: 0 48px;
+    padding-left: 0;
+    align-items: center;
+  }
+  
+  .footer .desktop-flex .footer-headline {
+    border:  2px solid rebeccapurple;
+    text-align: left;
+    margin-right: 24px;  
+  }
+
+  .footer .desktop-flex .form {
+    flex-grow: 2;
+  
+    border:  2px solid yellow
+  }
+
+  .footer .footer-button {
+    align-self:flex-start;
+  }
 
   /* .skill-flex {
   
