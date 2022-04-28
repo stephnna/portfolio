@@ -182,14 +182,24 @@ ul {
 }
 
 .about-container {
+  background-image: url(./images/about-me-background-image-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% -45px;
+  /* background-image: url(./images/about-me-background-2-desktop.svg); */
   text-align: center;
 }
 
-.about-me {
+.about-container .about-me {
   color: #172b4d;
   font-weight: 400px;
-  font-size: 40px;
-  display: inline-block;
+  font-size: 40px;  
+ }
+
+ .about-container .about-message {
+  font-size: 20px;
+  color: #42526e;
+  padding: auto 24px;
+  /* margin: auto auto; */
 }
 
 .skill-flex {
@@ -198,11 +208,6 @@ ul {
   justify-content: center;
   padding-left: 0;
   padding-bottom: 16px;
-}
-
-.about-message {
-  font-size: 20px;
-  color: #42526e;
 }
 
 .grid-frame-skill > .grid-child-frame-skill {
