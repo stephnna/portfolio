@@ -138,7 +138,7 @@ ul {
   transform: scale(0.9);
 }
 
-.language {  
+.language {
   column-gap: 10px;
   justify-content: center;
   padding-left: 0;
@@ -173,7 +173,7 @@ ul {
   color: #1e488f;
 }
 
-.about-container { 
+.about-container {
   text-align: center;
 }
 
@@ -186,10 +186,10 @@ ul {
   line-height: 52px;
   color: #172b4d;
   font-weight: 700px;
-  font-size: 40px;  
- }
+  font-size: 40px;
+}
 
- .about-container .about-message {
+.about-container .about-message {
   font-size: 20px;
   color: #42526e;
   padding: 0 24px;
@@ -200,8 +200,7 @@ ul {
 .about-container .about-background-desktop-image-2 {
   background-image: url(./images/about-background-image-2-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain; 
- 
+  background-size: contain;
 }
 
 .grid-frame-skill {
@@ -234,7 +233,7 @@ ul {
 .skills-pack {
   border-radius: 50%;
   background-color: white;
-  padding: 16px;  
+  padding: 16px;
 }
 
 .skills-pack-font {
@@ -317,50 +316,51 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-
-  .break, .top-header, .footer-link{
+  .break,
+  .top-header,
+  .footer-link {
     display: none;
   }
 
   .intro {
-    background-image: url(./images/background-image.svg);    
-     width: 100%;   
-     background-size: 100% 100%;
-     height: 1000px; 
-  }  
-  
+    background-image: url(./images/background-image.svg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 1000px;
+  }
+
   .recent-work-align {
-    margin: 24px 0px;
+    margin: 24px 0;
     color: #172b4d;
   }
 
-  .container-recent {   
+  .container-recent {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    padding: 0px 48px;            
+    padding: 0 48px;
   }
 
   .container-recent > .grid-project {
-   margin-top: 32px;
-  }    
-  
-  .about-container .about-me {
-    background-image: url(./images/about-me-background-1-desktop.svg); 
-    padding-right: 0;
-   }   
+    margin-top: 32px;
+  }
 
-   .about-container .about-background-desktop-image-2 {
+  .about-container .about-me {
+    background-image: url(./images/about-me-background-1-desktop.svg);
+    padding-right: 0;
+  }
+
+  .about-container .about-background-desktop-image-2 {
     background-image: url(./images/about-me-background-2-desktop.svg);
     padding-left: 0;
-    /* background-repeat: no-repeat; 
+
+    /* background-repeat: no-repeat;
     background-size: contain;
     background-position: ;  */
-   
-  } 
-  .about-container  .about-paragraph {
+  }
+
+  .about-container .about-paragraph {
     padding: 0 259.6px 260px;
     margin: 0;
-    
   }
 
   /* .about-container .get-resume {
@@ -368,63 +368,59 @@ ul {
   } */
 
   .grid-frame-skill {
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: auto auto auto;
     padding: 0 48px;
     margin: auto;
   }
 
   .grid-frame-skill .grid-child-frame-skill .language-desktop {
     padding: 0 49px 33px;
-
   }
 
   .grid-frame-skill .grid-child-frame-skill .framework-desktop {
     padding: 0 30px 30px;
-
-  } 
+  }
 
   .grid-frame-skill .grid-child-frame-skill .skill-desktop {
     padding: 0 12px 12px;
-
   }
 
-  .footer .footer-headline { 
-    font-size: 30px;    
+  .footer .footer-headline {
+    font-size: 30px;
   }
-  
+
   .desktop-flex {
-    display: flex;   
+    display: flex;
     margin: 32px 48px 78px 48px;
     padding-left: 0;
-    align-items: center;     
+    align-items: center;
     margin-top: 80px;
   }
-  
+
   .footer .desktop-flex .footer-headline {
     text-align: left;
-    margin-right: 24px;   
+    margin-right: 24px;
   }
 
   .footer .desktop-flex .form {
     flex-grow: 1;
     justify-self: center;
     margin-bottom: 0;
-    margin-top: 80px; 
+    margin-top: 80px;
     max-width: 684px;
-    border:  2px solid rebeccapurple;   
+    border: 2px solid rebeccapurple;
   }
 
   .footer .footer-input {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;    
-    color: #6b778c;    
-    box-sizing: border-box;   
-  
+    font-weight: 400;
+    color: #6b778c;
+    box-sizing: border-box;
   }
 
   .footer .footer-button {
-    align-self:flex-start;
+    align-self: flex-start;
   }
 
   .footer .social {
@@ -433,7 +429,4 @@ ul {
     margin-top: 360px;
     border: 2px solid rebeccapurple;
   }
-
-  
 }
-   
