@@ -86,6 +86,7 @@ ul {
 .container-recent {
   display: grid;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .container-recent > .grid-project {
@@ -126,6 +127,9 @@ ul {
 
 .get-resume {
   margin: 0;
+  background-image: url(./images/about-background-image-2-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
 }
 
 .see-project:hover {
@@ -181,15 +185,18 @@ ul {
   color: #1e488f;
 }
 
-.about-container {
-  background-image: url(./images/about-me-background-image-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: 100% -45px;
+.about-container {  
   /* background-image: url(./images/about-me-background-2-desktop.svg); */
   text-align: center;
 }
 
 .about-container .about-me {
+  background-image: url(./images/about-me-background-image-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% -28px;
+  background-size: contain;
+  padding: 18px 0;
+  height: 64px;
   color: #172b4d;
   font-weight: 400px;
   font-size: 40px;  
@@ -198,8 +205,8 @@ ul {
  .about-container .about-message {
   font-size: 20px;
   color: #42526e;
-  padding: auto 24px;
-  /* margin: auto auto; */
+  padding: 0 24px;
+  margin-top: 0;
 }
 
 .skill-flex {
