@@ -200,7 +200,8 @@ ul {
 .about-container .about-background-desktop-image-2 {
   background-image: url(./images/about-background-image-2-mobile.svg);
   background-repeat: no-repeat;
-  padding-top: 20px;
+  background-size: contain; 
+ 
 }
 
 .grid-frame-skill {
@@ -350,6 +351,7 @@ ul {
 
    .about-container .about-background-desktop-image-2 {
     background-image: url(./images/about-me-background-2-desktop.svg);
+    padding-left: 0;
     /* background-repeat: no-repeat; 
     background-size: contain;
     background-position: ;  */
@@ -358,8 +360,7 @@ ul {
   .about-container  .about-paragraph {
     padding: 0 259.6px 260px;
     margin: 0;
-    border:  2px solid rebeccapurple;
-
+    
   }
 
   /* .about-container .get-resume {
@@ -369,8 +370,7 @@ ul {
   .grid-frame-skill {
     grid-template-columns: auto auto auto; 
     padding: 0 48px;
-    margin: auto; 
-
+    margin: auto;
   }
 
   .grid-frame-skill .grid-child-frame-skill .language-desktop {
@@ -393,48 +393,47 @@ ul {
   }
   
   .desktop-flex {
-    display: flex;
-    border:  2px solid rebeccapurple;
-    /* justify-content: stretch;     */
-    margin: 0 48px;
+    display: flex;   
+    margin: 32px 48px 78px 48px;
     padding-left: 0;
-    align-items: center;
+    align-items: center;     
+    margin-top: 80px;
   }
   
   .footer .desktop-flex .footer-headline {
-    border:  2px solid rebeccapurple;
     text-align: left;
-    margin-right: 24px;  
+    margin-right: 24px;   
   }
 
   .footer .desktop-flex .form {
-    flex-grow: 2;
+    flex-grow: 1;
+    justify-self: center;
+    margin-bottom: 0;
+    margin-top: 80px; 
+    max-width: 684px;
+    border:  2px solid rebeccapurple;   
+  }
+
+  .footer .footer-input {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+    color: #6b778c;    
+    box-sizing: border-box;   
   
-    border:  2px solid yellow
   }
 
   .footer .footer-button {
     align-self:flex-start;
   }
 
-  /* .skill-flex {
-  
-} */
-
-  /* .container-recent > .grid-project {
-   margin: 32px 24px;
+  .footer .social {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 360px;
+    border: 2px solid rebeccapurple;
   }
 
-
-}
-
-.grid-frame-skill > .grid-child-frame-skill {
-  background-color: #c1c7d0;
-  border-radius: 8px;
-  text-align: center;
-  padding-top: 40px;
-  margin: 24px;
-} */
   
 }
    
