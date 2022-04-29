@@ -175,6 +175,10 @@ ul {
 
 .about-container {
   text-align: center;
+  background-image: url(./images/about-background-image-2-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 0 96%;  
+
 }
 
 .about-container .about-me {
@@ -197,11 +201,11 @@ ul {
   font-weight: 400px;
 }
 
-.about-container .about-background-desktop-image-2 {
+/* .about-container .about-background-desktop-image-2 {
   background-image: url(./images/about-background-image-2-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 .grid-frame-skill {
   display: grid;
@@ -349,7 +353,7 @@ ul {
     padding-right: 0;
   }
 
-  .about-container .about-background-desktop-image-2 {
+  .about-container {
     background-image: url(./images/about-me-background-2-desktop.svg);
     padding-left: 0;
 
