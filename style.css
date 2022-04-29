@@ -322,7 +322,7 @@ ul {
   @keyframes slide-in {
     100% { transform: translateX(0%); }
   }
-  
+
   .desktop-nav {
     display: flex;
     justify-content: center;
@@ -427,7 +427,7 @@ ul {
     background-image: url(./images/contact-form-desktop-background-image-1.svg);
     background-repeat: no-repeat;
     background-position: 10% 100%;
-    padding-left: 0;   
+    padding-left: 0;
   }
 
   .footer .desktop-flex .footer-headline {
@@ -440,7 +440,7 @@ ul {
     justify-self: center;
     margin-bottom: 0;
     margin-top: 80px;
-    max-width: 684px;  
+    max-width: 684px;
   }
 
   .footer .footer-input {
