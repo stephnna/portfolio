@@ -352,6 +352,8 @@ ul {
   .recent-work-align {
     margin: 24px 0;
     color: #172b4d;
+    animation: slide-in 0.5s forwards;
+    transform: translateX(-100%);
   }
 
   .container-recent {
