@@ -319,6 +319,11 @@ ul {
     display: none;
   }
 
+  @keyframes slide-in {
+    100% { transform: translateX(0%); }
+  }
+  
+
   .desktop-nav {
     display: flex;
     justify-content: center;
@@ -418,6 +423,7 @@ ul {
     background-repeat: no-repeat;
     background-position: 10% 100%;
     padding-left: 0;
+    border:  2px solid red;
   }
 
   .footer .desktop-flex .footer-headline {
@@ -464,9 +470,4 @@ ul {
  .footer .social .flex-item:nth-of-type(4) { order: 1; }
  .footer .social .flex-item:nth-of-type(5) { order: 3; }
 
-  .empty-padding {
-    padding: 500px;
-    background: #e5e5e5;;
   }
-
-}
