@@ -334,6 +334,11 @@ ul {
     margin-right: 24px;
     color: #172b4d;
     font-weight: bold;
+    transition: color linear .2s;
+  }
+
+  .desktop-nav-list:hover {
+    color: #36b37e;
   }
 
   a:link {
