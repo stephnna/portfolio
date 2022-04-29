@@ -322,7 +322,7 @@ ul {
   @keyframes slide-in {
     100% { transform: translateX(0%); }
   }
-  
+
   .desktop-nav {
     display: flex;
     justify-content: center;
