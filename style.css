@@ -3,6 +3,7 @@
 body {
   font-family: Inter, Helvetica, Geneva, Tahoma, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .desktop-nav {
@@ -24,8 +25,8 @@ body {
 
 .top-header {
   justify-content: space-between;
-  margin-left: 12px;
-  margin-right: 40px;
+   margin-left: 12px;
+  margin-right: 40px; 
   align-items: center;
 }
 
@@ -85,26 +86,24 @@ ul {
 .container-recent {
   display: grid;
   padding: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
   border-radius: 8px;
-  margin: 0 24px 24px 24px;
+  margin: 24px;
   flex-direction: column;
   text-align: center;
-  padding-left: 1.5px;
-  padding-right: 1.5px;
-  padding-bottom: 1.5px;
-  padding-top: 252px;
+  padding: 252px 1.5px 1.5px 1.5px;
+  font-weight: 600;  
+  line-height: 32px;  
 }
 
 .multi-post {
   background-color: white;
-  border-radius: 8px;
-  line-height: 8px;
-  padding-top: 12px;
+  border-radius: 8px; 
+  padding-top: 0;
 }
 
 .multi-text-color {
@@ -138,16 +137,18 @@ ul {
 }
 
 .language {
-  column-gap: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  padding-left: 0;
-}
+  padding-left:  0;
+  }
 
 .language-background {
   padding: 8px;
   background-color: #ebf0ee;
   border-radius: 4px;
   color: #3a4a42;
+  font: 12px;  
 }
 
 .recent-work-align {
@@ -201,14 +202,18 @@ ul {
 
 .grid-frame-skill {
   display: grid;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .grid-frame-skill > .grid-child-frame-skill {
   background-color: #c1c7d0;
   border-radius: 8px;
   text-align: center;
-  padding-top: 40px;
-  margin: 24px;
+   padding-top: 40px;
+   margin: 24px; 
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .frame-skill-background {
@@ -216,14 +221,15 @@ ul {
   border-radius: 4px;
   padding: 8px;
   color: #36b37e;
+  font: 12px; 
 }
 
 .skill-flex {
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  gap: 10px; 
+  justify-content: center; 
   padding-left: 0;
-  padding-bottom: 16px;
+  margin: 0 27px 12px 27px;
 }
 
 .skills-pack {
@@ -312,25 +318,28 @@ ul {
   color: #42526e;
 }
 
+/* Desktop Version */
+
 @media only screen and (min-width: 768px) {
   .break,
   .top-header,
   .footer-link,
   .dash-flex {
     display: none;
+    margin-bottom: 0;
   }
-
+ 
   .header-background {
     background-image: url(./images/background-image.svg);
     background-size: 100% 100%;
-    height: 1000px;
-    padding-top: 0;
-    margin-top: 0;
+    background-repeat: no-repeat;    
+    padding: 0; 
+              
   }
 
   .intro {
     background-image: none;
-    padding-top: 160px;
+    /* padding: 60px 40px 30px 60px;         */
   }
 
   .desktop-nav {
@@ -338,6 +347,7 @@ ul {
     justify-content: center;
     margin: 16px 0;
     font-weight: bold;
+    padding-right: 100px;
   }
 
   .desktop-nav-list {
@@ -361,19 +371,17 @@ ul {
   }
 
   .recent-work-align {
-    margin: 24px 0;
+    /* margin: 24px 0; */
     color: #172b4d;
   }
 
   .container-recent {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    padding: 0 48px;
+    padding: 0;
+    margin: 0;
   }
 
-  .container-recent > .grid-project {
-    margin-top: 32px;
-  }
 
   .about-container .about-me {
     background-image: url(./images/about-me-background-1-desktop.svg);
@@ -388,22 +396,10 @@ ul {
 
   .grid-frame-skill {
     grid-template-columns: auto auto auto;
-    padding: 0 48px;
-    margin: auto;
-  }
-
-  .grid-frame-skill .grid-child-frame-skill .language-desktop {
-    padding: 0 49px 33px;
-  }
-
-  .grid-frame-skill .grid-child-frame-skill .framework-desktop {
-    padding: 0 30px 30px;
-  }
-
-  .grid-frame-skill .grid-child-frame-skill .skill-desktop {
-    padding: 0 12px 12px;
-  }
-
+    padding: 0;
+    margin: 0;    
+   }
+  
   .footer .footer-headline {
     font-size: 30px;
     text-align: left;
@@ -412,16 +408,12 @@ ul {
 
   .desktop-flex {
     display: flex;
-    margin: 20px 68px 0 68px;
+    margin: 20px 24px 0 24px;
     align-items: center;
   }
 
   .footer {
-    background-image: url(./images/contact-form-desktop-background-image-3.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 200px;
-    margin: 0;
-    padding: 0;
+    background-image: none;
   }
 
   .footer .footer-background-image-1 {
@@ -435,6 +427,15 @@ ul {
     background-repeat: no-repeat;
     background-position: 20%;
     height: 250px;
+  }
+
+  .footer .footer-background-image-3{
+    background-image: url(./images/contact-form-desktop-background-image-3.svg);
+    background-repeat: no-repeat;
+    /* background-position: 100% -60px; */
+    background-size: contain;
+    margin: 0;
+    padding: 0;
   }
 
   .footer .desktop-flex .form {
