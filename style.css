@@ -17,8 +17,7 @@ body {
 .intro {
   background-image: url(images/background.png);
   flex-direction: column;
-  text-align: center;
-  background-size: cover;
+  text-align: center;  
   background-size: 100% 100%;
   padding: 0;
 }
@@ -61,10 +60,11 @@ body {
   gap: 18px;
 }
 
-.paragraph {
-  margin-bottom: 64px;
+.intro .intro-message .paragraph {
   font-size: 20px;
   color: #172b4d;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .down-arrow {
@@ -75,6 +75,7 @@ body {
   border-radius: 32px;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 250px;
 }
 
 ul {
@@ -337,11 +338,22 @@ ul {
     background-image: url(./images/background-image.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+   margin: 0;   
     padding: 0;
   }
 
   .intro {
     background-image: none;
+    padding: 50px 0 0 0;    
+  }
+
+  .intro .intro-message {
+    padding: 0 50px 50px 50px; 
+  }
+
+  .intro .intro-message .paragraph {
+    font-size: 20px;
+    color: #172b4d;
   }
 
   .desktop-nav {
@@ -366,11 +378,7 @@ ul {
 
   a:link {
     text-decoration: none;
-  }
-
-  .intro-message {
-    line-height: 60%;
-  }
+  } 
 
   .recent-work-align {
     color: #172b4d;
@@ -427,8 +435,7 @@ ul {
     font-size: 30px;
     text-align: left;
     margin-right: 0;
-    padding-right: 0;
-    border: 2px solid rebeccapurple;
+    padding-right: 0;   
   }
 
   .footer .desktop-flex .form {
