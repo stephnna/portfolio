@@ -18,7 +18,7 @@ body {
   background-image: url(images/background.png);
   flex-direction: column;
   text-align: center;
-  background-size: 100% 100%;
+  background-size: 100% 100%;  
   padding: 0;
 }
 
@@ -62,9 +62,10 @@ body {
 
 .intro .intro-message .paragraph {
   font-size: 20px;
+  margin: 0px 24px; 
   color: #172b4d;
-  padding-left: 150px;
-  padding-right: 150px;
+  font-weight: 400;
+  line-height: 28px;  
 }
 
 .down-arrow {
@@ -104,7 +105,8 @@ ul {
 .multi-post {
   background-color: white;
   border-radius: 8px;
-  padding-top: 0;
+  padding: 0;
+  margin: 0;  
 }
 
 .multi-text-color {
@@ -142,9 +144,11 @@ ul {
 
 .language {
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   justify-content: center;
   padding-left: 0;
+  padding-right: 0;
+  margin: 41px 0;
 }
 
 .language-background {
@@ -203,6 +207,8 @@ ul {
   padding: 0 24px;
   margin-top: 0;
   font-weight: 400px;
+  font-weight: 400;  
+  line-height: 32px;
 }
 
 .grid-frame-skill {
@@ -216,31 +222,29 @@ ul {
   border-radius: 8px;
   text-align: center;
   padding-top: 40px;
-  margin: 24px;
-  padding-left: 0;
-  padding-right: 0;
+  margin: 24px; 
 }
 
 .frame-skill-background {
   background-color: white;
   border-radius: 4px;
-  padding: 8px;
+  padding: 12px;
   color: #36b37e;
   font: 12px;
 }
 
 .skill-flex {
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   justify-content: center;
   padding-left: 0;
-  margin: 0 28px 12px 27px;
+  margin-bottom: 72px;   
 }
 
 .skills-pack {
   border-radius: 50%;
   background-color: white;
-  padding: 16px;
+  padding: 16px;  
 }
 
 .skills-pack-font {
@@ -248,6 +252,7 @@ ul {
   color: #344563;
   font-size: 24px;
   font-weight: 600px;
+  padding: 0; 
 }
 
 .float-right {
@@ -383,8 +388,12 @@ ul {
   .container-recent {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
+    padding: 0 142px 143px;
+  }
+
+  .container-recent .language  {  
+    justify-content: center;    
     padding: 0;
-    margin: 0;
   }
 
   .about-container .about-me {
@@ -408,8 +417,12 @@ ul {
 
   .grid-frame-skill {
     grid-template-columns: auto auto auto;
-    padding: 0;
+    padding: 0 142px 143px;
     margin: 0;
+  }
+  .grid-frame-skill .grid-child-frame-skill .skill-flex {
+    padding-left: 11px;
+    padding-right: 11px;
   }
 
   .footer {
@@ -420,7 +433,7 @@ ul {
 
   .footer .desktop-flex {
     display: flex;
-    margin: 20px 24px 0 24px;
+    padding: 0 142px 143px;    
     column-gap: 24px;
     align-items: center;
   }
