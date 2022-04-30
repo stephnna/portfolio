@@ -408,7 +408,7 @@ ul {
 
   .desktop-flex {
     display: flex;
-    /* margin: 20px 24px 0 24px; */
+    margin: 20px 24px 0 24px;
     align-items: center;
   }
 
