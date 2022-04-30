@@ -114,21 +114,24 @@ ul {
 
 .see-project {
   background-color: #36b37f;
-  padding: 8px;
+  padding: 25px;
   border-color: #36b37f;
   border-radius: 4px;
   color: white;
   cursor: pointer;
   margin-bottom: 24px;
   border: none;
+  font-weight: 500;
+  line-height: 24px;
+  line-height: 0.03em;
+  transition-duration: 0.2s;
 }
 
 .see-project:hover {
   background-color: #36b37f;
   cursor: pointer;
-  transform: scale(0.9);
-  border-radius: 16px;
-  box-shadow: 0 8px rgba(54, 179, 127, 0.24);
+  transform: scale(1.2);
+  border: none;
 }
 
 .see-project:active {
@@ -192,8 +195,9 @@ ul {
   font-size: 40px;
 }
 
-.about-container .about-message {
+.about-container .about-background-desktop-image-2 .about-message {
   font-size: 20px;
+  text-align: center;
   color: #42526e;
   padding: 0 24px;
   margin-top: 0;
@@ -329,11 +333,6 @@ ul {
     margin-bottom: 0;
   }
 
-  .main-section {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .header-background {
     background-image: url(./images/background-image.svg);
     background-size: 100% 100%;
@@ -343,8 +342,6 @@ ul {
 
   .intro {
     background-image: none;
-
-    /* padding: 60px 40px 30px 60px;         */
   }
 
   .desktop-nav {
@@ -376,7 +373,6 @@ ul {
   }
 
   .recent-work-align {
-    /* margin: 24px 0; */
     color: #172b4d;
   }
 
@@ -388,14 +384,22 @@ ul {
   }
 
   .about-container .about-me {
+    background-image: none;
+  }
+
+  .about-container .about-me-background-image-1 {
     background-image: url(./images/about-me-background-1-desktop.svg);
-    padding-right: 0;
+    background-repeat: no-repeat;
+    background-position: 100% -18px;
   }
 
   .about-container {
     background-image: url(./images/about-me-background-2-desktop.svg);
     padding-left: 0;
-    margin-top: 140px;
+  }
+
+  .about-container .about-background-desktop-image-2 .about-message {
+    padding: 0 220px;
   }
 
   .grid-frame-skill {
@@ -404,21 +408,33 @@ ul {
     margin: 0;
   }
 
-  .footer .footer-headline {
-    font-size: 30px;
-    text-align: left;
-    margin-right: 24px;
-  }
-
-  .desktop-flex {
-    display: flex;
-    margin: 20px 24px 0 24px;
-    align-items: center;
-  }
-
   .footer {
     background-image: none;
     padding: 0;
+    margin: 0;
+  }
+
+  .footer .desktop-flex {
+    display: flex;
+    margin: 20px 24px 0 24px;
+    column-gap: 24px;
+    align-items: center;
+  }
+
+  .footer .footer-headline {
+    flex-shrink: 1;
+    flex-shrink: auto;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 0;
+    padding-right: 0;
+    border: 2px solid rebeccapurple;
+  }
+
+  .footer .desktop-flex .form {
+    flex-grow: 2;
+    margin-bottom: 0;
+    margin-top: 60px;
   }
 
   .footer .footer-background-image-1 {
@@ -426,6 +442,7 @@ ul {
     background-repeat: no-repeat;
     background-position: 0 70%;
     padding-left: 0;
+    margin-right: 0;
   }
 
   .footer .footer-background-image-2 {
@@ -442,12 +459,6 @@ ul {
     margin: 0;
     padding: 0;
     height: 200px;
-  }
-
-  .footer .desktop-flex .form {
-    flex-grow: 1;
-    margin-bottom: 0;
-    margin-top: 60px;
   }
 
   .footer .footer-input {
