@@ -346,11 +346,7 @@ ul {
     background-image: none;
     padding: 100px 0 0 0;
   }
-
-  .intro .intro-message {
-    /* padding: 0 50px 50px 50px;  */
-  }
-
+ 
   .intro .intro-message .paragraph {
     font-size: 20px;
     color: #172b4d;
