@@ -408,27 +408,26 @@ ul {
 
   .desktop-flex {
     display: flex;
-    margin: 20px 24px 0 24px;
+    /* margin: 20px 24px 0 24px; */
     align-items: center;
   }
 
   .footer {
     background-image: none;
-    padding-bottom: 0;
+    padding: 0;
   }
 
   .footer .footer-background-image-1 {
     background-image: url(./images/contact-form-desktop-background-image-1.svg);
     background-repeat: no-repeat;
-    background-position: 0 70%;
-    border: 2px solid rgb(24, 3, 3);
+    background-position: 0 70%; 
+   padding-left: 0; 
   }
 
   .footer .footer-background-image-2 {
     background-image: url(./images/contact-form-desktop-background-image-2.svg);
     background-repeat: no-repeat;
-    background-position: 20%; 
-    border: 2px solid rgb(115, 43, 43);  
+    background-position: 20%;     
   }
 
   .footer  .footer-background-image-3 {
