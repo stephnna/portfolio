@@ -330,8 +330,8 @@ ul {
   }
 
   .main-section {
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .header-background {
@@ -441,7 +441,7 @@ ul {
     background-size: contain;
     margin: 0;
     padding: 0;
-    height: 250px;
+    height: 200px;
   }
 
   .footer .desktop-flex .form {
