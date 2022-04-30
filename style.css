@@ -17,7 +17,7 @@ body {
 .intro {
   background-image: url(images/background.png);
   flex-direction: column;
-  text-align: center;  
+  text-align: center;
   background-size: 100% 100%;
   padding: 0;
 }
@@ -234,7 +234,7 @@ ul {
   gap: 10px;
   justify-content: center;
   padding-left: 0;
-  margin: 0 27px 12px 27px;
+  margin: 0 28px 12px 27px;
 }
 
 .skills-pack {
@@ -335,20 +335,20 @@ ul {
   }
 
   .header-background {
-    background-image: url(./images/background-image.svg);
+    background-image: url(./images/background-image.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   margin: 0;   
+    margin: 0;
     padding: 0;
   }
 
   .intro {
     background-image: none;
-    padding: 50px 0 0 0;    
+    padding: 100px 0 0 0;
   }
 
   .intro .intro-message {
-    padding: 0 50px 50px 50px; 
+    /* padding: 0 50px 50px 50px;  */
   }
 
   .intro .intro-message .paragraph {
@@ -378,7 +378,7 @@ ul {
 
   a:link {
     text-decoration: none;
-  } 
+  }
 
   .recent-work-align {
     color: #172b4d;
@@ -435,7 +435,7 @@ ul {
     font-size: 30px;
     text-align: left;
     margin-right: 0;
-    padding-right: 0;   
+    padding-right: 0;
   }
 
   .footer .desktop-flex .form {
