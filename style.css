@@ -25,8 +25,8 @@ body {
 
 .top-header {
   justify-content: space-between;
-   margin-left: 12px;
-  margin-right: 40px; 
+  margin-left: 12px;
+  margin-right: 40px;
   align-items: center;
 }
 
@@ -96,13 +96,13 @@ ul {
   flex-direction: column;
   text-align: center;
   padding: 252px 1.5px 1.5px 1.5px;
-  font-weight: 600;  
-  line-height: 32px;  
+  font-weight: 600;
+  line-height: 32px;
 }
 
 .multi-post {
   background-color: white;
-  border-radius: 8px; 
+  border-radius: 8px;
   padding-top: 0;
 }
 
@@ -140,15 +140,15 @@ ul {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  padding-left:  0;
-  }
+  padding-left: 0;
+}
 
 .language-background {
   padding: 8px;
   background-color: #ebf0ee;
   border-radius: 4px;
   color: #3a4a42;
-  font: 12px;  
+  font: 12px;
 }
 
 .recent-work-align {
@@ -210,10 +210,10 @@ ul {
   background-color: #c1c7d0;
   border-radius: 8px;
   text-align: center;
-   padding-top: 40px;
-   margin: 24px; 
-    padding-left: 0;
-    padding-right: 0;
+  padding-top: 40px;
+  margin: 24px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .frame-skill-background {
@@ -221,13 +221,13 @@ ul {
   border-radius: 4px;
   padding: 8px;
   color: #36b37e;
-  font: 12px; 
+  font: 12px;
 }
 
 .skill-flex {
   flex-wrap: wrap;
-  gap: 10px; 
-  justify-content: center; 
+  gap: 10px;
+  justify-content: center;
   padding-left: 0;
   margin: 0 27px 12px 27px;
 }
@@ -328,17 +328,22 @@ ul {
     display: none;
     margin-bottom: 0;
   }
- 
+
+  .main-section {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
   .header-background {
     background-image: url(./images/background-image.svg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;    
-    padding: 0; 
-              
+    background-repeat: no-repeat;
+    padding: 0;
   }
 
   .intro {
     background-image: none;
+
     /* padding: 60px 40px 30px 60px;         */
   }
 
@@ -382,7 +387,6 @@ ul {
     margin: 0;
   }
 
-
   .about-container .about-me {
     background-image: url(./images/about-me-background-1-desktop.svg);
     padding-right: 0;
@@ -397,9 +401,9 @@ ul {
   .grid-frame-skill {
     grid-template-columns: auto auto auto;
     padding: 0;
-    margin: 0;    
-   }
-  
+    margin: 0;
+  }
+
   .footer .footer-headline {
     font-size: 30px;
     text-align: left;
@@ -420,23 +424,23 @@ ul {
   .footer .footer-background-image-1 {
     background-image: url(./images/contact-form-desktop-background-image-1.svg);
     background-repeat: no-repeat;
-    background-position: 0 70%; 
-   padding-left: 0; 
+    background-position: 0 70%;
+    padding-left: 0;
   }
 
   .footer .footer-background-image-2 {
     background-image: url(./images/contact-form-desktop-background-image-2.svg);
     background-repeat: no-repeat;
-    background-position: 20%;     
+    background-position: 20%;
   }
 
-  .footer  .footer-background-image-3 {
+  .footer .footer-background-image-3 {
     background-image: url(./images/contact-form-desktop-background-image-3.svg);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: contain;
     margin: 0;
-    padding: 0;    
+    padding: 0;
     height: 250px;
   }
 
