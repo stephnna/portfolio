@@ -414,28 +414,31 @@ ul {
 
   .footer {
     background-image: none;
+    padding-bottom: 0;
   }
 
   .footer .footer-background-image-1 {
     background-image: url(./images/contact-form-desktop-background-image-1.svg);
     background-repeat: no-repeat;
     background-position: 0 70%;
+    border: 2px solid rgb(24, 3, 3);
   }
 
   .footer .footer-background-image-2 {
     background-image: url(./images/contact-form-desktop-background-image-2.svg);
     background-repeat: no-repeat;
-    background-position: 20%;
-    height: 250px;
+    background-position: 20%; 
+    border: 2px solid rgb(115, 43, 43);  
   }
 
-  .footer .footer-background-image-3{
+  .footer  .footer-background-image-3 {
     background-image: url(./images/contact-form-desktop-background-image-3.svg);
     background-repeat: no-repeat;
-    /* background-position: 100% -60px; */
+    background-position: 100%;
     background-size: contain;
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    height: 250px;
   }
 
   .footer .desktop-flex .form {
