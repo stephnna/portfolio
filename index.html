@@ -8,27 +8,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="header-background">
    <nav>
      <div  class="top-header display-flex">
       <a class="welcome identical-to" href="#">Welcome</a>
       <span class="identical-to">&#8801;</span>
      </div>     
-      <ul class="desktop-nav">
-        <li class="desktop-nav-list"><a href="#">Portfolio</a></li>        
-        <li class="desktop-nav-list"><a href="#">About</a></li>
-        <li class="desktop-nav-list"><a href="#"></a>Contact</li>
-      </ul>
+      <ul class="desktop-nav">       
+        <li class="desktop-nav-list"><a class="text-color" href="#">Portfolio</a></li>
+        <li class="desktop-nav-list"><a class="text-color" href="#">About</a></li>
+        <li class="desktop-nav-list"><a class="text-color" href="#">Contact</a></li>        
+    </ul>
   </nav>
-  </header> 
-  <main>
-    <section class="intro display-flex">
-    <div>
+  <section class="intro display-flex">
+    <div class="intro-message">
     <h1 class="first-name">Hey there. I'm Stephen</h1>
     <h2 class="first-name software-dev">I'm a software developer</h2>
-  </div>
-    <p class="paragraph">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-      don't hestiate to contact me.</p>    
+    <p class="paragraph">I can help you build a product, feature or website Look through some of my work and experience If you like what you see and have a project you need coded, don't hestiate to contact me.</p>    
     <ul class="social display-flex">
       <li><a href="https://twitter.com/stephnna"><img class="social-img" src="images/twitter.png" alt="twitter"></a></li>
       <li><a href="https://www.linkedin.com/in/stephen-nnabuike-ezea-143b97170/"><img class="social-img" src="images/Linkedin.png" alt="linkedin"></a></li>
@@ -37,8 +33,10 @@
       <li><a href=""><img class="social-img" src="images/angellist.png" alt="angellist"></a></li>        
   </ul>
   <img class="down-arrow" src="./images/down-arrow.svg" alt="down-arrow">
-</section>
-
+  </div>    
+</section>  
+  </header> 
+  <main>
 <!-- Recent Work Session -->
   <h2 class="recent-work-align">My Recent<br class="break"> Works</h2>
 <div class="dash-flex display-flex">
@@ -47,7 +45,7 @@
 <section class="container-recent">  
   <div class="grid-project">
     <div class="multi-post">
-      <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+      <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
      <ul class="language display-flex">
      <li class="language-background">Ruby on rails</li>
      <li class="language-background">css</li>
@@ -60,7 +58,7 @@
 
 <div class="grid-project">
   <div class="multi-post">
-    <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+    <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
    <ul class="language display-flex">
    <li class="language-background">Ruby on rails</li>
    <li class="language-background">css</li>
@@ -73,7 +71,7 @@
 
 <div class="grid-project">
   <div class="multi-post">
-    <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+    <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
    <ul class="language display-flex">
    <li class="language-background">Ruby on rails</li>
    <li class="language-background">css</li>
@@ -86,7 +84,7 @@
 
 <div class="grid-project">
   <div class="multi-post">
-    <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+    <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
    <ul class="language display-flex">
    <li class="language-background">Ruby on rails</li>
    <li class="language-background">css</li>
@@ -99,7 +97,7 @@
 
 <div class="grid-project">
   <div class="multi-post">
-    <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+    <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
    <ul class="language display-flex">
    <li class="language-background">Ruby on rails</li>
    <li class="language-background">css</li>
@@ -111,7 +109,7 @@
 </div>
 <div class="grid-project">
    <div class="multi-post">
-    <h3 class="multi-text-color">Multi-Post Stories <br><br><br><br>Gain+Glory</h3>
+    <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
     <ul class="language display-flex">
     <li class="language-background">Ruby on rails</li>
     <li class="language-background">css</li>
@@ -126,11 +124,11 @@
 <!-- About me Session -->
 <section> 
   <div class="about-container"> 
-    <div class="about-me"><h2>About me</h2></div>      
+    <div class="about-me-background-image-1"><div class="about-me"><h2>About me</h2></div>      
         <div class="about-background-desktop-image-2">
-          <p class="about-message">I can help you build a product, feature or website 
-         Look through some of my work and <br> experience! If you like what you see and have a project you need coded,<br>
-          don't hestiate to contact me.</p></div>  
+          <p class="about-message">I can help you build a product, feature or website
+            Look through some of my work and experience! If you like what you see and have a project you need coded,
+            don't hestiate to contact me.</p></div></div>  
           <div class="get-resume">
         <button class="see-project" type="button">Get My Resume</button></div>        
 </div>   
@@ -138,10 +136,10 @@
 
 <!-- Language Session -->
 <section class="grid-frame-skill">
-<div class="top-padding grid-child-frame-skill">  
-    <img class="skills-pack" src="images/globe.png" alt="globe-logo"><br><br><br>
-    <h2 class="skills-pack-font">Languages</h2><br>
-    <ul class="skill-flex language-desktop display-flex">
+<div class="grid-child-frame-skill">  
+    <img class="skills-pack" src="images/globe.png" alt="globe-logo">
+    <h2 class="skills-pack-font">Languages</h2>
+    <ul class="skill-flex display-flex">
     <li class="frame-skill-background">JavaScript</li>
     <li class="frame-skill-background">Ruby</li>
     <li class="frame-skill-background">CSS</li>
@@ -149,10 +147,10 @@
   </ul>
 </div>
 <!-- Frameworks Session -->
-<div class="top-padding grid-child-frame-skill">  
-   <img class="skills-pack" src="images/framework.png" alt="Frameworks"><br><br><br>
-    <h2 class="skills-pack-font">Frameworks</h2><br>  
-    <ul class="skill-flex framework-desktop display-flex">
+<div class="grid-child-frame-skill">  
+   <img class="skills-pack" src="images/framework.png" alt="Frameworks">
+    <h2 class="skills-pack-font">Frameworks</h2>  
+    <ul class="skill-flex display-flex">
     <li class="frame-skill-background">Bootstrap</li>
     <li class="frame-skill-background">Ruby on rails</li>
     <li class="frame-skill-background">Rspec</li>
@@ -161,10 +159,10 @@
   </ul>  
 </div>
 <!-- Skill Session -->
-<div class="top-padding grid-child-frame-skill">  
-    <img class="skills-pack" src="images/skills.png" alt="Skill-logo"><br><br><br>
-     <h2 class="skills-pack-font">Skills</h2><br>
-    <ul class="skill-flex skill-desktop display-flex">
+<div class="grid-child-frame-skill">  
+    <img class="skills-pack" src="images/skills.png" alt="Skill-logo">
+     <h2 class="skills-pack-font">Skills</h2>
+    <ul class="skill-flex display-flex">
     <li class="frame-skill-background">Codekit</li>
     <li class="frame-skill-background">GitHub</li>
     <li class="frame-skill-background">Codepen</li>
@@ -173,11 +171,9 @@
   </ul>
 </div>
 </section>
-<footer class="footer">
-  <div class="footer-background-image-1">
+<footer class="footer">  
      <div class="desktop-flex">
-       <h2 class="footer-headline">I'm always interested in hearing <br> about new projects, 
-    so if you'd <br> like to chat please get in touch.</h2>
+       <h2 class="footer-headline">I'm always interested in hearing about new<br>projects, so if you'd like to chat please get in touch.</h2>
     <form class="form display-flex" action="https://formspree.io/f/mpzbopnv" method="post">
       <label for="full-name"></label>
       <input class="footer-input" id="full-name" type="text" placeholder="Full name" name="full-name" maxlength="30" required>
@@ -187,8 +183,13 @@
       <textarea class="footer-input" name="text-area" id="text-area" placeholder="Enter text here" rows="5" maxlength="500" required></textarea>
       <button class="footer-button see-project" type="submit">Get in touch</button>
     </form>
+   </div>
+   <div class="footer-background-image-1">
+  <div  class="footer-background-image-2">
+   <div class="footer-background-image-3"></div>
+   </div>
   </div>
-</div>
+  
   <hr class="horizontal-line">
     <ul class="social display-flex">
       <li class="flex-item"><a href="https://twitter.com/stephnna"><img class="social-img" src="images/twitter.png" alt="twitter"></a></li>
