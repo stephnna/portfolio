@@ -116,11 +116,10 @@ ul {
 }
 
 .see-project {
-  background-color: #36b37f;
+  background-color: #097749;
   padding: 25px;
-  border-color: #36b37f;
   border-radius: 4px;
-  color: rgb(20, 17, 18);
+  color: white;
   cursor: pointer;
   margin-bottom: 24px;
   border: none;
@@ -131,14 +130,14 @@ ul {
 }
 
 .see-project:hover {
-  background-color: #36b37f;
+  background-color: #09955b;
   cursor: pointer;
   transform: scale(1.2);
   border: none;
 }
 
 .see-project:active {
-  background-color: #008552;
+  background-color: #0d5a3d;
   transform: scale(0.9);
 }
 
