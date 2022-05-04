@@ -130,13 +130,13 @@ ul {
 }
 
 .see-project:hover {
-  background-color: #09955b;
+  background-color: #097749;
   cursor: pointer;
   transform: scale(1.2);
   border: none;
 }
 
-.see-project:active {
+.see-project:focus-visible {
   background-color: #0d5a3d;
   transform: scale(0.9);
 }
