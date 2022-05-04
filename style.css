@@ -120,11 +120,11 @@ ul {
   padding: 25px;
   border-color: #36b37f;
   border-radius: 4px;
-  color: white;
+  color: rgb(20, 17, 18);
   cursor: pointer;
   margin-bottom: 24px;
   border: none;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 24px;
   line-height: 0.03em;
   transition-duration: 0.2s;
