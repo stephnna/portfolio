@@ -356,6 +356,10 @@ ul {
     color: #172b4d;
   }
 
+  @keyframes slide-in {
+    100% { transform: translateX(0%); }
+  }
+
   .desktop-nav {
     display: flex;
     justify-content: center;
@@ -370,6 +374,12 @@ ul {
 
   .text-color {
     color: #172b4d;
+    font-weight: bold;
+    transition: color linear 0.2s;
+  }
+
+  .desktop-nav-list:hover {
+    color: #36b37e;
   }
 
   .text-color:hover {
@@ -382,6 +392,8 @@ ul {
 
   .recent-work-align {
     color: #172b4d;
+    animation: slide-in 0.5s forwards;
+    transform: translateX(-100%);
   }
 
   .container-recent {
