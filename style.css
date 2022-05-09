@@ -10,10 +10,13 @@ body {
   display: none;
 }
 
-/* .nav-menu {
-  display: none;
-} */
+@media only screen and (max-width: 768px) {
 
+  .nav-menu {
+    display: none;
+  }
+}
+  
 .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -355,7 +358,7 @@ ul {
   .break,
   .top-header,
   .footer-link,
-  .dash-flex, .mobile-menu {
+  .dash-flex, .nav-menu {
     display: none;
     margin-bottom: 0;
   }
