@@ -11,12 +11,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-
   .nav-menu {
     display: none;
   }
 }
-  
+
 .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -358,7 +357,8 @@ ul {
   .break,
   .top-header,
   .footer-link,
-  .dash-flex, .nav-menu {
+  .dash-flex,
+  .nav-menu {
     display: none;
     margin-bottom: 0;
   }
