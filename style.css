@@ -29,14 +29,12 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
-
 
 .display-flex {
   display: flex;
 }
-
 
 .intro {
   background-image: url(images/background.png);
@@ -115,7 +113,7 @@ ul {
   margin: 0;
 }
 
-.container-recent>.grid-project {
+.container-recent > .grid-project {
   background-color: #d0d9d4;
   border-radius: 8px;
   margin: 24px;
@@ -240,7 +238,7 @@ ul {
   margin-bottom: 0;
 }
 
-.grid-frame-skill>.grid-child-frame-skill {
+.grid-frame-skill > .grid-child-frame-skill {
   background-color: #c1c7d0;
   border-radius: 8px;
   text-align: center;
@@ -354,7 +352,6 @@ ul {
 /* Desktop Version */
 
 @media only screen and (min-width: 768px) {
-
   .break,
   .top-header,
   .footer-link,
