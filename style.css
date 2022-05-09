@@ -10,9 +10,9 @@ body {
   display: none;
 }
 
-.nav-menu {
+/* .nav-menu {
   display: none;
-}
+} */
 
 .mobile-menu {
   display: flex;
@@ -24,7 +24,7 @@ body {
   margin: 0 96px 40px 16px;
 }
 
-.text-color {
+.text-color-mobile {
   text-decoration: none;
   font-size: 32px;
   font-weight: 600;
@@ -355,7 +355,7 @@ ul {
   .break,
   .top-header,
   .footer-link,
-  .dash-flex {
+  .dash-flex, .mobile-menu {
     display: none;
     margin-bottom: 0;
   }
