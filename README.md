@@ -8,6 +8,8 @@ Portfolio: Setup and Mobile Version Skeleton
 - figma template
 - Linters
 - HTML & CSS
+- Javascript 
+
 ## Deployment
 
 This project has been deployed with GitHub pages.
