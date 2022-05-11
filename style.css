@@ -15,7 +15,7 @@ body {
   color: #28352f;
   font-size: 20px;
   font-weight: 600;
-  line-height: 28px;  
+  line-height: 28px;
 }
 
 .mobile-menu-header {
@@ -48,7 +48,7 @@ body {
 
 .is-active .bar-3 {
   transform: rotate(45deg) translate(-6px, -6px);
-  position: fixed;  
+  position: fixed;
 }
 
 .mobile-menu {
@@ -66,9 +66,10 @@ body {
 
 .is-active .mobile-menu {
   left: 0;
+
   /* mix-blend-mode: normal; */
   top: -8px;
-  opacity: 87%;  
+  opacity: 87%;
 }
 
 .mobile-menu .mobile-nav-list .text-color-mobile {
