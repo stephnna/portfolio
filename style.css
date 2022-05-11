@@ -19,16 +19,13 @@ body {
 }
 
 .mobile-menu-header {
-  /* position: fixed; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 54px;
-  margin-left: 24px;
+  margin: 54px 38px 0 24px;
 }
 
 .hamburger div {
-  /* position: fixed; */
   width: 30px;
   height: 3px;
   cursor: pointer;
@@ -68,7 +65,7 @@ body {
   left: 0;
 
   /* mix-blend-mode: normal; */
-  top: -8px;
+  top: 0;
   opacity: 87%;
 }
 
