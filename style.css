@@ -48,7 +48,7 @@ body {
 
 .is-active .bar-3 {
   transform: rotate(45deg) translate(-6px, -6px);
-  position: fixed;
+  position: fixed;  
 }
 
 .mobile-menu {
@@ -66,8 +66,9 @@ body {
 
 .is-active .mobile-menu {
   left: 0;
-  mix-blend-mode: normal;
-  top: 73px;
+  /* mix-blend-mode: normal; */
+  top: -8px;
+  opacity: 87%;  
 }
 
 .mobile-menu .mobile-nav-list .text-color-mobile {
