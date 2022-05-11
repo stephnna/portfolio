@@ -38,7 +38,7 @@ body {
 }
 
 .is-active .bar-1 {
-  transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-5px, 5px);
   position: fixed;
 }
 
