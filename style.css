@@ -14,18 +14,21 @@ body {
   text-decoration: none;
   color: #28352f;
   font-size: 20px;
-  font-weight: 600px;
-  line-height: 28px;
+  font-weight: 600;
+  line-height: 28px;  
 }
 
 .mobile-menu-header {
+  /* position: fixed; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 54px;
+  margin-left: 24px;
 }
 
 .hamburger div {
+  /* position: fixed; */
   width: 30px;
   height: 3px;
   cursor: pointer;
@@ -36,6 +39,7 @@ body {
 
 .is-active .bar-1 {
   transform: rotate(-45deg) translate(-6px, 6px);
+  position: fixed;
 }
 
 .is-active .bar-2 {
@@ -43,7 +47,8 @@ body {
 }
 
 .is-active .bar-3 {
-  transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -6px);
+  position: fixed;
 }
 
 .mobile-menu {
@@ -62,7 +67,7 @@ body {
 .is-active .mobile-menu {
   left: 0;
   mix-blend-mode: normal;
-  margin-top: 0;
+  top: 80px;
 }
 
 .mobile-menu .mobile-nav-list .text-color-mobile {
