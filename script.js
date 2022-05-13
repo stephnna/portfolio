@@ -63,14 +63,13 @@ const project6 = {
 
 const projects = [project1, project2, project3, project4, project5, project6];
 
+
+
 const projectsContainer = document.createElement("div");
-// projectsContainer.innerHTML = "Project1";
 sectionElement = document.getElementById("projects-container");
 sectionElement.appendChild(projectsContainer);
 sectionElement.className = "container-recent";
 projectsContainer.id = "multi-post-id";
-document.getElementById("multi-post-id").innerHTML = "Project1";
-// document.getElementById("multi-post-id").style.fontSize = "40px";
 projectsContainer.className = "grid-project";
 
 const multiPostElement = projectsContainer.cloneNode(true);
@@ -78,11 +77,10 @@ const multiPostElementChild = document.getElementById("multi-post-id");
 multiPostElementChild.appendChild(multiPostElement);
 multiPostElement.id =  "multiPostChildId";
 multiPostElement.className = "multi-post";
-// multiPostElement.innerHTML = "";
-// multiPostElement.style.fontSize = null;
 
 const projectName = document.createElement("h3");
 projectName.innerHTML =   "Multi-Post Stories" + "<br />" + "Gain+Glory";
+// projectName.innerHTML = project1.description; 
 projectName.id =  "multi-text-id";
 projectName.className = "multi-text-color";
 document.getElementById("multiPostChildId").appendChild(projectName );
@@ -95,42 +93,20 @@ listItem = document.createElement("li");
 document.getElementById("ul-tech-id").appendChild(listItem);
 listItem.className = "language-background";
 listItem.innerHTML = "Ruby on rails";
-// listItemSecond = listItem.cloneNode(true);
-// document.getElementById("ul-tech-id").appendChild(listItemSecond);
-// listItemSecond.innerHTML = "css";
-// listItemthird = listItem.cloneNode(true);
-// document.getElementById("ul-tech-id").appendChild(listItemthird);
-// listItemSecond.innerHTML = "JavaScript";
-// listItemfourth = listItem.cloneNode(true);
-// document.getElementById("ul-tech-id").appendChild(listItemfourth);
-// listItemSecond.innerHTML = "html";
+listItemSecond = listItem.cloneNode(true);
+document.getElementById("ul-tech-id").appendChild(listItemSecond);
+listItemSecond.innerHTML = "css";
+listItemthird = listItem.cloneNode(true);
+document.getElementById("ul-tech-id").appendChild(listItemthird);
+listItemthird.innerHTML = "JavaScript";
+listItemfourth = listItem.cloneNode(true);
+document.getElementById("ul-tech-id").appendChild(listItemfourth);
+listItemfourth.innerHTML = "html";
 
-// seeProjectButton = document.createElement("button");
-// seeProjectButton.innerHTML = "See Project";
-// seeProjectButton.className = "see-project";
-// seeProjectButton.id = "button-id";
-// document.getElementById("multiPostChildId").appendChild(seeProjectButton);
-// document.getElementById("button-id").setAttribute("type", "button"); 
+seeProjectButton = document.createElement("button");
+seeProjectButton.innerHTML = "See Project";
+seeProjectButton.className = "see-project";
+seeProjectButton.id = "button-id";
+document.getElementById("multiPostChildId").appendChild(seeProjectButton);
+document.getElementById("button-id").setAttribute("type", "button"); 
 
-
-
-
-
-
-
-
-
-
-
-// sectionElement.insertBefore(projectsContainer);
-
-
-
-
-// const para = document.createElement("p");
-// const node = document.createTextNode("This is new.");
-// para.appendChild(node);
-
-// const element = document.getElementById("div1");
-// const child = document.getElementById("p1");
-// element.insertBefore(para,child);
