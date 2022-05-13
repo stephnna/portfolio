@@ -129,6 +129,24 @@
   <button class="see-project" type="button">See Project</button>
 </div>
 </div> -->
+
+Array.from(sectionElement.children).forEach((child, index) => {
+  child.innerHTML = `
+  <div class="grid-project">
+    <div class="multi-post">
+      <h3 class="multi-text-color">Multi-Post Stories<br>Gain+Glory</h3>
+     <ul class="language display-flex">
+     <li class="language-background">Ruby on rails</li>
+     <li class="language-background">css</li>
+     <li class="language-background" >JavaScript</li>
+     <li class="language-background">html</li>    
+   </ul>  
+   <button class="see-project" type="button">See Project</button>
+ </div>
+ </div>
+ `;
+});
+
 </section>
 
 <!-- About me Session -->
