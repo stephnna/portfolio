@@ -117,18 +117,31 @@ const project6 = {
   technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
   seeProject: 'See Project',
   live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  
+  source: 'https://github.com/stephnna/portfolio',  
 };
 
 // creating objets that holds the card information
 
-const projects = [project1, project2, project3, project4, project5];
+const projects = [project1, project2, project3, project4, project5, project6];
 
 const sectionElement = document.getElementById("projects-container");
+// ${worksInfo[index].cardDisplay}
 
-
-
+Array.from(sectionElement.children).forEach((child, index) => {
+  sectionElement.children.classList = "grid-project";
+  child.innerHTML = `
+    <div class="multi-post">
+      <h3 class="multi-text-color">${projects[index].description}</h3>
+     <ul class="language display-flex">
+     <li class="language-background">Ruby on rails</li>
+     <li class="language-background">css</li>
+     <li class="language-background" >JavaScript</li>
+     <li class="language-background">html</li>    
+   </ul>  
+   <button class="see-project" type="button">See Project</button>
+ </div>
+ `;
+});
 
 
 
