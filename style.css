@@ -202,6 +202,36 @@ ul {
   margin: 41px 0;
 }
 
+/* modal css begins */
+.modal-container {
+    margin: 16px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: 0.4s; 
+
+}
+
+.modal-container .modal-skill {
+  align-items: flex-start;
+  padding-left: 0;
+  gap: 8px;
+}
+
+.mobile-modal-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.modal-btn-container { 
+justify-content: space-between;
+}
+
 .language-background {
   padding: 8px;
   background-color: #ebf0ee;
