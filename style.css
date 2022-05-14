@@ -216,7 +216,7 @@ ul {
   transition: 0.4s;
 }
 
-.hide {
+.hide, .desktop-modal {
   display: none;
 }
 
@@ -225,9 +225,7 @@ ul {
   height: auto;
 }
 
-.desktop-modal {
-  display: none;
-}
+
 
 .modal-container .modal-skill {
   align-items: flex-start;
@@ -432,7 +430,7 @@ ul {
   .footer-link,
   .dash-flex,
   .mobile-menu-header,
-  .mobile-modal {
+  {
     display: none;
     margin-bottom: 0;
   }
@@ -508,10 +506,12 @@ ul {
     padding: 0;
   }
 
-  .desktop-modal {
-    width: 100%;
-    height: 100vh;
-  }
+ .desktop-modal {
+   width: 100%;
+   height: auto;
+ }
+ 
+ */
 
   .about-container .about-me {
     background-image: none;
