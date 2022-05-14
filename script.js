@@ -166,7 +166,7 @@ Array.from(sectionElement.children).forEach((child, index) => {
     <div class="multi-post">
     <h3 class="multi-text-color">${projects[index].description}</h3>
      <ul class="language display-flex">
-     <li class="language-background">${projects[index].rubySkill}</li>
+     <li class="language-background">${projectsindex].rubySkill}</li>
      <li class="language-background">${projects[index].cssSkill}</li>
      <li class="language-background">${projects[index].jsSkill}</li>
      <li class="language-background">${projects[index].htmlSkill}</li> 
@@ -190,7 +190,7 @@ seeProjectVar.forEach((item) => {
     <img class="close" src="${projects[item.id].closeButton}" alt="">
     <img class="mobile-modal" src="${projects[item.id].imageMobile}" alt="">
     <img class="desktop-modal" src="${projects[item.id].imageDesktop}" alt="">
- <h2>${projects[item.id].name}</h2>
+ <h2>${dprojects[item.id].name}</h2>
  <ul class="modal-skill display-flex">
   <li class="language-background">${projects[item.id].rubySkill}</li>
   <li class="language-background">${projects[item.id].cssSkill}</li>
@@ -212,7 +212,6 @@ seeProjectVar.forEach((item) => {
     });
 
   });
-});
 
 //function to close modal
 
