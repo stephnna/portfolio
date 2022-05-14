@@ -28,6 +28,7 @@ const project1 = {
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
     source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
 };
 
 const project2 = {
@@ -49,6 +50,8 @@ const project2 = {
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
     source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
+
 };
 
 const project3 = {
@@ -70,6 +73,8 @@ const project3 = {
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
     source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
+
 };
 
 const project4 = {
@@ -91,6 +96,8 @@ const project4 = {
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
     source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
+
   
 };
 
@@ -113,6 +120,8 @@ const project5 = {
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
     source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
+
 };
 
 const project6 = {
@@ -133,7 +142,9 @@ const project6 = {
     codePen: 'Codepen',
     seeProject: 'See Project',
     live: 'https://stephnna.github.io/portfolio/',
-    source: 'https://github.com/stephnna/portfolio',  
+    source: 'https://github.com/stephnna/portfolio',
+    modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?'
+
 };
 
 // creating objets that holds the card information
@@ -178,22 +189,14 @@ seeProjectVar.forEach((item) => {
     modalContainer.innerHTML = `
     <img src="" alt="">
     <img src="" alt="">
+    <img src="" alt="">
  <h2>hhhhhhhhhhhh</h2>
  <ul class="modal-skill display-flex">
   <li class="language-background">Ruby on rails</li>
   <li class="language-background">css</li>
   <li class="language-background" >JavaScript</li>   
 </ul>
-<p class="mobile-modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed 
-  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi 
-  voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto 
-  consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur 
-  minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing 
-  elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta dolor
-  emque nulla quibusdam, iusto consequatur eum ad 
-  deleniti tempora et atque nihil voluptate veniam?</p>
+<p class="mobile-modal-description"></p>
   <div class="modal-btn-container display-flex"> <button class="see-project" type="button">See Live</button>
     <button class="see-project" type="button">See Source</button></div> 
        
