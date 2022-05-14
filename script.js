@@ -197,7 +197,7 @@ seeProjectVar.forEach((item) => {
   <li class="language-background" >${projects[item.id].jsSkill}</li>   
 </ul>
 <p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
-  <div class="modal-btn-container display-flex"> <button class="see-project" type="button">See Live</button>
+  <div class="modal-btn-container display-flex"><button class="see-project" type="button">See Live</button>
     <button class="see-project" type="button">See Source</button></div> 
        
     `;  
@@ -214,8 +214,9 @@ seeProjectVar.forEach((item) => {
   });
 });
 
-//function to close modal
+// form validation
 
+const email = document.querySelector('#email');
 
 
 
