@@ -171,7 +171,7 @@ Array.from(sectionElement.children).forEach((child, index) => {
      <li class="language-background">${projects[index].jsSkill}</li>
      <li class="language-background">${projects[index].htmlSkill}</li> 
      </ul>   
-    <button class="see-project" type="button">${projects[index].seeProject}</button>
+    <button id="${[index]}" class="see-project" type="button">${projects[index].seeProject}</button>
  </div>
 `;
 });
@@ -187,9 +187,9 @@ seeProjectVar.forEach((item) => {
     modalContainer.className = 'modal-container';
     modalContainer.id = "modal-container-id";
     modalContainer.innerHTML = `
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="${projects[item.id].closeButton}" alt="">
+    <img src="${projects[item.id].imageMobile}" alt="">
+    <img src="${projects[item.id].imageDesktop}" alt="">
  <h2>hhhhhhhhhhhh</h2>
  <ul class="modal-skill display-flex">
   <li class="language-background">Ruby on rails</li>
