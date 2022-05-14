@@ -6,17 +6,17 @@ body {
   padding: 0;
 }
 
-.desktop-nav, 
+.desktop-nav,
 .modal-desktop-name-button,
-.hide, .desktop-modal-skill {
+.hide,
+.desktop-modal-skill {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
   .desktop-modal-description {
-    display:  none;
+    display: none;
   }
-
 }
 
 .welcome {
@@ -152,7 +152,7 @@ ul {
   margin: 0;
 }
 
-.container-recent>.grid-project {
+.container-recent > .grid-project {
   background-color: #d0d9d4;
   border-radius: 8px;
   margin: 24px;
@@ -212,13 +212,15 @@ ul {
 }
 
 /* modal css begins */
-.close {   
+.close {
   cursor: pointer;
   float: right;
 }
+
 .modal-container {
   overflow-y: auto;
-  /* height: 100vh; */ 
+
+  /* height: 100vh; */
   margin: 0;
   position: fixed;
   top: 0;
@@ -228,15 +230,15 @@ ul {
   background-color: white;
   transition: 0.4s;
   padding: 16px;
-} 
-
-.mobile-modal { 
-   height: 50%;
-   background-repeat: no-repeat;  
-   background-size: 100% 100%; 
 }
 
-.modal-container .mobile-modal-skill{
+.mobile-modal {
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.modal-container .mobile-modal-skill {
   align-items: flex-start;
   padding-left: 0;
   gap: 8px;
@@ -319,7 +321,7 @@ ul {
   margin-bottom: 0;
 }
 
-.grid-frame-skill>.grid-child-frame-skill {
+.grid-frame-skill > .grid-child-frame-skill {
   background-color: #c1c7d0;
   border-radius: 8px;
   text-align: center;
@@ -433,18 +435,16 @@ ul {
 /* Desktop Version */
 
 @media only screen and (min-width: 768px) {
-
   .break,
   .top-header,
   .footer-link,
   .dash-flex,
   .mobile-menu-header,
   .mobile-modal,
-  .mobile-modal-skill, 
+  .mobile-modal-skill,
   .mobile-modal-title,
   .mobile-modal-description,
-  .mobile-modal-btn    
-  {
+  .mobile-modal-btn {
     display: none;
     margin-bottom: 0;
   }
@@ -519,47 +519,48 @@ ul {
     justify-content: center;
     padding: 0;
   }
-/* modal desktop */
 
-.desktop-modal-skill {
-  display: flex; 
-  padding-left: 0;
-  gap: 8px;
- }
+  /* modal desktop */
 
- .desktop-modal-item{
-  padding: 8px;
-  background-color: #ebf0ee;
-  border-radius: 4px;
-  color: #3a4a42;
-  font: 12px;
- }
+  .desktop-modal-skill {
+    display: flex;
+    padding-left: 0;
+    gap: 8px;
+  }
 
- .desktop-modal-background {
-  height: 100%;
-  background-repeat: no-repeat;  
-  background-size: 100% 100%;  
- }
+  .desktop-modal-item {
+    padding: 8px;
+    background-color: #ebf0ee;
+    border-radius: 4px;
+    color: #3a4a42;
+    font: 12px;
+  }
 
- .modal-container {
-  padding: 78px 24px 0 24px;
-  border: 2px solid yellow; 
- }
+  .desktop-modal-background {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 
- .modal-desktop-name-button {
-  display: flex;
-justify-content: space-between;
-margin-top: 24px;
- }
+  .modal-container {
+    padding: 78px 24px 0 24px;
+    border: 2px solid yellow;
+  }
+
+  .modal-desktop-name-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
 
   .about-container .about-me {
     background-image: none;
-  } 
+  }
 
-  .desktop-modal-btn{
+  .desktop-modal-btn {
     margin-right: 12px;
   }
- 
+
   .about-container .about-me-background-image-1 {
     background-image: url(./images/about-me-background-1-desktop.svg);
     background-repeat: no-repeat;
@@ -681,6 +682,4 @@ margin-top: 24px;
   .footer .social .flex-item:nth-of-type(5) {
     order: 3;
   }
-
-
 }
