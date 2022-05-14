@@ -13,7 +13,7 @@ const project1 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -35,7 +35,7 @@ const project2 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -58,7 +58,7 @@ const project3 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -81,7 +81,7 @@ const project4 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -105,7 +105,7 @@ const project5 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -128,7 +128,7 @@ const project6 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'images/modal-mobile-background.png',
+    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -204,3 +204,10 @@ seeProjectVar.forEach((item) => {
     document.getElementById("modal-main-container-id").appendChild(modalContainer);    
   });
 });
+
+//function to close modal
+const close = document.querySelector('.close');
+
+close.addEventListener('click', () => {
+  modalContainer.classList.toggle('hide');
+})
