@@ -220,3 +220,8 @@ const email = document.querySelector('#email');
 
 
 
+
+//local storage
+
+const userName =  document.querySelector('#full-name');
+const userMsg = document.querySelector('#text-area');
