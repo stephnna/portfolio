@@ -146,7 +146,7 @@ const projects = [project1, project2, project3, project4, project5, project6];
 const sectionElement = document.getElementById('projects-container');
 sectionElement.className = 'container-recent';
 
-for (let i = 0; i < projects.length; i++) {
+for (let i = 0; i < projects.length; i = i + 1) {
   const gridProject = document.createElement('div');
   gridProject.className = 'grid-project';
   sectionElement.appendChild(gridProject);
