@@ -205,6 +205,13 @@ ul {
 }
 
 /* modal css begins */
+
+@media only screen and (max-width: 768px) {
+
+  .mobile-modal {
+    display: none;
+  }
+}
 .modal-container {
   margin: 16px;
   position: fixed;
@@ -429,7 +436,8 @@ ul {
   .top-header,
   .footer-link,
   .dash-flex,
-  .mobile-menu-header,
+  .mobile-menu-header
+  
   {
     display: none;
     margin-bottom: 0;
