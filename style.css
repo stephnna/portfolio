@@ -6,11 +6,18 @@ body {
   padding: 0;
 }
 
-.desktop-nav {
+.desktop-nav, 
+.modal-desktop-name-button,
+.hide, .desktop-modal-skill {
   display: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .desktop-modal-description {
+    display:  none;
+  }
 
+}
 
 .welcome {
   text-decoration: none;
@@ -205,15 +212,14 @@ ul {
 }
 
 /* modal css begins */
-
-@media only screen and (max-width: 768px) {
-
-  .mobile-modal {
-    display: none;
-  }
+.close {   
+  cursor: pointer;
+  float: right;
 }
 .modal-container {
-  margin: 16px;
+  overflow-y: auto;
+  /* height: 100vh; */ 
+  margin: 0;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -221,20 +227,16 @@ ul {
   right: 0;
   background-color: white;
   transition: 0.4s;
+  padding: 16px;
+} 
+
+.mobile-modal { 
+   height: 50%;
+   background-repeat: no-repeat;  
+   background-size: 100% 100%; 
 }
 
-.hide, .desktop-modal {
-  display: none;
-}
-
-.mobile-modal {
-  width: 100%;
-  height: auto;
-}
-
-
-
-.modal-container .modal-skill {
+.modal-container .mobile-modal-skill{
   align-items: flex-start;
   padding-left: 0;
   gap: 8px;
@@ -247,7 +249,7 @@ ul {
   color: #344563;
 }
 
-.modal-btn-container {
+.mobile-modal-btn {
   justify-content: space-between;
 }
 
@@ -436,8 +438,12 @@ ul {
   .top-header,
   .footer-link,
   .dash-flex,
-  .mobile-menu-header
-  
+  .mobile-menu-header,
+  .mobile-modal,
+  .mobile-modal-skill, 
+  .mobile-modal-title,
+  .mobile-modal-description,
+  .mobile-modal-btn    
   {
     display: none;
     margin-bottom: 0;
@@ -513,19 +519,47 @@ ul {
     justify-content: center;
     padding: 0;
   }
+/* modal desktop */
 
- .desktop-modal {
-   width: 100%;
-   height: auto;
+.desktop-modal-skill {
+  display: flex; 
+  padding-left: 0;
+  gap: 8px;
  }
- 
- */
+
+ .desktop-modal-item{
+  padding: 8px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  color: #3a4a42;
+  font: 12px;
+ }
+
+ .desktop-modal-background {
+  height: 100%;
+  background-repeat: no-repeat;  
+  background-size: 100% 100%;  
+ }
+
+ .modal-container {
+  padding: 78px 24px 0 24px;
+  border: 2px solid yellow; 
+ }
+
+ .modal-desktop-name-button {
+  display: flex;
+justify-content: space-between;
+margin-top: 24px;
+ }
 
   .about-container .about-me {
     background-image: none;
+  } 
+
+  .desktop-modal-btn{
+    margin-right: 12px;
   }
-
-
+ 
   .about-container .about-me-background-image-1 {
     background-image: url(./images/about-me-background-1-desktop.svg);
     background-repeat: no-repeat;

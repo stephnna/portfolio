@@ -13,7 +13,7 @@ const project1 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -35,7 +35,7 @@ const project2 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -58,7 +58,7 @@ const project3 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -81,7 +81,7 @@ const project4 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -105,7 +105,7 @@ const project5 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -128,7 +128,7 @@ const project6 = {
     closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    imageMobile: 'images/modal-mobile-background.png',
     imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
@@ -186,22 +186,41 @@ seeProjectVar.forEach((item) => {
     const modalContainer = document.createElement('section');
     modalContainer.className = 'modal-container';
     modalContainer.id = "modal-container-id";
-    modalContainer.innerHTML = `
-    <img class="close" src="${projects[item.id].closeButton}" alt="">
-    <img class="mobile-modal" src="${projects[item.id].imageMobile}" alt="">
-    <img class="desktop-modal" src="${projects[item.id].imageDesktop}" alt="">
- <h2>${projects[item.id].name}</h2>
- <ul class="modal-skill display-flex">
+    modalContainer.innerHTML = `  
+    <div><img class="close" src="${projects[item.id].closeButton}" alt="close-button"></div>
+    <div class="mobile-modal" style="background-image: url(${projects[item.id].imageMobile});"></div>
+    <div class="desktop-modal-background" style="background-image: url(${projects[item.id].imageDesktop});"></div>
+ <h2 class="mobile-modal-title">${projects[item.id].name}</h2>
+ <ul class="mobile-modal-skill display-flex">
   <li class="language-background">${projects[item.id].rubySkill}</li>
   <li class="language-background">${projects[item.id].cssSkill}</li>
   <li class="language-background" >${projects[item.id].jsSkill}</li>   
 </ul>
 <p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
-  <div class="modal-btn-container display-flex"> <button class="see-project" type="button">See Live</button>
-    <button class="see-project" type="button">See Source</button></div> 
-       
+  <div class="mobile-modal-btn display-flex"> 
+    <button class="see-project" type="button">See Live</button>
+    <button class="see-project" type="button">See Source</button>
+  </div> 
+   
+  <div class="modal-desktop-name-button">
+     <h2>${projects[item.id].name}</h2>
+     <div desktop-modal-btn> 
+      <button class="see-project desktop-modal-btn" type="button">See Live</button>
+      <button class="see-project" type="button">See Source</button>
+     </div> 
+ </div>
+ <ul class="desktop-modal-skill">
+  <li class="desktop-modal-item">${projects[item.id].CodeKit}</li>
+  <li class="desktop-modal-item">${projects[item.id].gitHub}</li>
+  <li class="desktop-modal-item">${projects[item.id].jsSkill}</li>
+  <li class="desktop-modal-item">${projects[item.id].boostrap}</li> 
+  <li class="desktop-modal-item">${projects[item.id].terminal}</li>
+  <li class="desktop-modal-item">${projects[item.id].codePen}</li>        
+</ul>
+<p class="desktop-modal-description">${projects[item.id].modalDescription}</p>       
     `;  
     document.getElementById("modal-main-container-id").appendChild(modalContainer);
+    // document.getElementById("myDiv").style.backgroundImage = "url('img_tree.png')";
 
     const closeBtn = document.querySelectorAll('.close');
 
@@ -214,8 +233,4 @@ seeProjectVar.forEach((item) => {
   });
 });
 
-//function to close modal
-
-
-
-
+ 
