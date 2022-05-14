@@ -4,4 +4,3 @@ node_modules/
 # ignore DS_Store files
 .DS_Store
 
-.vscode/
