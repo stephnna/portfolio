@@ -187,9 +187,9 @@ seeProjectVar.forEach((item) => {
     modalContainer.className = 'modal-container';
     modalContainer.id = "modal-container-id";
     modalContainer.innerHTML = `
-    <img src="${projects[item.id].closeButton}" alt="">
-    <img src="${projects[item.id].imageMobile}" alt="">
-    <img src="${projects[item.id].imageDesktop}" alt="">
+    <img class="close" src="${projects[item.id].closeButton}" alt="">
+    <img class="mobile-modal" src="${projects[item.id].imageMobile}" alt="">
+    <img class="desktop-modal" src="${projects[item.id].imageDesktop}" alt="">
  <h2>hhhhhhhhhhhh</h2>
  <ul class="modal-skill display-flex">
   <li class="language-background">Ruby on rails</li>
