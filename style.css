@@ -216,7 +216,7 @@ ul {
   transition: 0.4s;
 }
 
-.modal-container.hide {
+.hide {
   display: none;
 }
 

@@ -201,13 +201,21 @@ seeProjectVar.forEach((item) => {
     <button class="see-project" type="button">See Source</button></div> 
        
     `;  
-    document.getElementById("modal-main-container-id").appendChild(modalContainer);    
+    document.getElementById("modal-main-container-id").appendChild(modalContainer);
+
+    const closeBtn = document.querySelectorAll('.close');
+
+    closeBtn.forEach((el) => {
+      el.addEventListener('click', () => {
+        modalContainer.classList.add('hide');
+      });
+    });
+
   });
 });
 
 //function to close modal
-const close = document.querySelector('.close');
 
-close.addEventListener('click', () => {
-  modalContainer.classList.toggle('hide');
-})
+
+
+
