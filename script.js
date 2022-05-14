@@ -190,13 +190,13 @@ seeProjectVar.forEach((item) => {
     <img class="close" src="${projects[item.id].closeButton}" alt="">
     <img class="mobile-modal" src="${projects[item.id].imageMobile}" alt="">
     <img class="desktop-modal" src="${projects[item.id].imageDesktop}" alt="">
- <h2>hhhhhhhhhhhh</h2>
+ <h2>${projects[item.id].name}</h2>
  <ul class="modal-skill display-flex">
-  <li class="language-background">Ruby on rails</li>
-  <li class="language-background">css</li>
-  <li class="language-background" >JavaScript</li>   
+  <li class="language-background">${projects[item.id].rubySkill}</li>
+  <li class="language-background">${projects[item.id].cssSkill}</li>
+  <li class="language-background" >${projects[item.id].jsSkill}</li>   
 </ul>
-<p class="mobile-modal-description"></p>
+<p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
   <div class="modal-btn-container display-flex"> <button class="see-project" type="button">See Live</button>
     <button class="see-project" type="button">See Source</button></div> 
        
