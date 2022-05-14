@@ -10,9 +10,11 @@ hamBurger.addEventListener('click', () => {
 
 
 const project1 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -29,9 +31,11 @@ const project1 = {
 };
 
 const project2 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -48,9 +52,11 @@ const project2 = {
 };
 
 const project3 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -67,9 +73,11 @@ const project3 = {
 };
 
 const project4 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -87,9 +95,11 @@ const project4 = {
 };
 
 const project5 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -106,9 +116,11 @@ const project5 = {
 };
 
 const project6 = {
+    closeButton: 'images/modal-close-button.svg',
     name: 'Keeping track of hundreds of components',
     description: 'Multi-Post Stories<br>Gain+Glory',
-    image: '',
+    imageMobile: 'images/modal-mobile-background.png',
+    imageDesktop: 'images/modal-desktop-backgroun.png',
     // technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'Codekit', 'GitHub', 'Bootstrap', 'Terminal', 'Codepen'],
     rubySkill: 'Ruby on rails',
     cssSkill: 'css',
@@ -164,6 +176,7 @@ seeProjectVar.forEach((item) => {
     modalContainer.className = 'modal-container';
     modalContainer.id = "modal-container-id";
     modalContainer.innerHTML = `
+    <img src="" alt="">
     <img src="" alt="">
  <h2>hhhhhhhhhhhh</h2>
  <ul class="modal-skill display-flex">
