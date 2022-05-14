@@ -210,7 +210,6 @@ seeProjectVar.forEach((item) => {
 <p class="desktop-modal-description">${projects[item.id].modalDescription}</p>       
     `;
     document.getElementById('modal-main-container-id').appendChild(modalContainer);
-    
 
     const closeBtn = document.querySelectorAll('.close');
 
