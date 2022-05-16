@@ -188,15 +188,15 @@ seeProjectVar.forEach((item) => {
 </ul>
 <p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
   <div class="mobile-modal-btn display-flex"> 
-    <button class="see-project" type="button">See Live</button>
-    <button class="see-project" type="button">See Source</button>
+  <button class="see-project" type="button">See Live  <img src="images/live.svg" alt="see-live-image"></button></a>
+    <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
   </div> 
    
   <div class="modal-desktop-name-button">
      <h2>${projects[item.id].name}</h2>
      <div desktop-modal-btn> 
-      <button class="see-project desktop-modal-btn" type="button">See Live</button>
-      <button class="see-project" type="button">See Source</button>
+      <button class="see-project desktop-modal-btn" type="button">See Live <img src="images/live.svg" alt="see-live-image"></button>
+      <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
      </div> 
  </div>
  <ul class="desktop-modal-skill">
