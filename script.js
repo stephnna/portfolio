@@ -28,29 +28,6 @@ const projects = [{
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 },
-
- {
-  closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'images/modal-mobile-background.png',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  rubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
-  seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-
-},
-
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
@@ -72,8 +49,7 @@ const projects = [{
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
 },
-
- {
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -94,7 +70,27 @@ const projects = [{
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
 },
+{
+  closeButton: 'images/modal-close-button.svg',
+  name: 'Keeping track of hundreds of components',
+  description: 'Multi-Post Stories<br>Gain+Glory',
+  imageMobile: 'images/modal-mobile-background.png',
+  imageDesktop: 'images/modal-desktop-backgroun.png',
+  rubySkill: 'Ruby on rails',
+  cssSkill: 'css',
+  jsSkill: 'JavaScript',
+  htmlSkill: 'html',
+  CodeKit: 'Codekit',
+  gitHub: 'GitHub',
+  boostrap: 'Boostrap',
+  terminal: 'Terminal',
+  codePen: 'Codepen',
+  seeProject: 'See Project',
+  live: 'https://stephnna.github.io/portfolio/',
+  source: 'https://github.com/stephnna/portfolio',
+  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
+},
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
@@ -116,8 +112,7 @@ const projects = [{
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
 },
-
- {
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
