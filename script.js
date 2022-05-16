@@ -214,7 +214,7 @@ function dataStorage() {
   const visitor = {
     Name: userName.value,
     Email: email.value,
-    Message: userMsg.value
+    Message: userMsg.value,
   };
   localStorage.setItem('visitor', JSON.stringify(visitor));
 }
