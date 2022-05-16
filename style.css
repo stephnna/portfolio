@@ -18,8 +18,7 @@ body {
   line-height: 28px;
 }
 
-.mobile-menu-header {
-  /* position: fixed; */
+.mobile-menu-header {  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +27,6 @@ body {
 }
 
 .hamburger div {
-  /* position: fixed; */
   width: 30px;
   height: 3px;
   cursor: pointer;
