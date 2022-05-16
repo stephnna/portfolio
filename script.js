@@ -8,7 +8,7 @@ hamBurger.addEventListener('click', () => {
 
 // creating first card item i.e grid project
 
-const project1 = {
+const projects = [{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -27,31 +27,9 @@ const project1 = {
   live: 'https://stephnna.github.io/portfolio/',
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-};
+},
 
-const project2 = {
-  closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'images/modal-mobile-background.png',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  rubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
-  seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-
-};
-
-const project3 = {
+ {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -71,9 +49,9 @@ const project3 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
+},
 
-const project4 = {
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -93,9 +71,31 @@ const project4 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
+},
 
-const project5 = {
+ {
+  closeButton: 'images/modal-close-button.svg',
+  name: 'Keeping track of hundreds of components',
+  description: 'Multi-Post Stories<br>Gain+Glory',
+  imageMobile: 'images/modal-mobile-background.png',
+  imageDesktop: 'images/modal-desktop-backgroun.png',
+  rubySkill: 'Ruby on rails',
+  cssSkill: 'css',
+  jsSkill: 'JavaScript',
+  htmlSkill: 'html',
+  CodeKit: 'Codekit',
+  gitHub: 'GitHub',
+  boostrap: 'Boostrap',
+  terminal: 'Terminal',
+  codePen: 'Codepen',
+  seeProject: 'See Project',
+  live: 'https://stephnna.github.io/portfolio/',
+  source: 'https://github.com/stephnna/portfolio',
+  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
+
+},
+
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -115,9 +115,9 @@ const project5 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
+},
 
-const project6 = {
+ {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
@@ -137,11 +137,8 @@ const project6 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
-
-// creating objets that holds the card information
-
-const projects = [project1, project2, project3, project4, project5, project6];
+},
+];
 
 const sectionElement = document.getElementById('projects-container');
 sectionElement.className = 'container-recent';
