@@ -214,7 +214,9 @@ ul {
 /* modal css begins */
 .close {
   cursor: pointer;
-  float: right;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 12px;
 }
 
 .modal-container {
