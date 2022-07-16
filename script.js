@@ -10,10 +10,10 @@ hamBurger.addEventListener('click', () => {
 
 const projects = [{
   closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'images/modal-mobile-background.png',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
+  name: 'SkillHub Academy! An online ongoing learning platform',
+  description: 'SkillHub Academy!',
+  imageMobile: 'images/skillHub-mobile.png',
+  imageDesktop: 'images/skillHub-desktop.png',
   rubySkill: 'Ruby on rails',
   cssSkill: 'css',
   jsSkill: 'JavaScript',
@@ -24,35 +24,14 @@ const projects = [{
   terminal: 'Terminal',
   codePen: 'Codepen',
   seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
+  live: 'https://stephnna.github.io/skillhub-academy/',
+  source: 'https://github.com/stephnna/skillhub-academy',
+  modalDescription: 'This project is a prototype of an online learning platform where a learner can learn available skill of his choice thought by porofessionals.',
 },
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'images/modal-mobile-background.png',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  rubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
-  seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-
-},
-{
-  closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
+  description: 'Coming soon!',
   imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
@@ -73,7 +52,28 @@ const projects = [{
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
+  description: 'Coming soon!',
+  imageMobile: 'images/skill-hub.png',
+  imageDesktop: 'images/skill-hub.png',
+  rubySkill: 'Ruby on rails',
+  cssSkill: 'css',
+  jsSkill: 'JavaScript',
+  htmlSkill: 'html',
+  CodeKit: 'Codekit',
+  gitHub: 'GitHub',
+  boostrap: 'Boostrap',
+  terminal: 'Terminal',
+  codePen: 'Codepen',
+  seeProject: 'See Project',
+  live: 'https://stephnna.github.io/skillhub-academy/',
+  source: 'https://github.com/stephnna/skillhub-academy',
+  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
+
+},
+{
+  closeButton: 'images/modal-close-button.svg',
+  name: 'Keeping track of hundreds of components',
+  description: 'Coming soon!',
   imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
@@ -94,7 +94,7 @@ const projects = [{
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
+  description: 'Coming soon!',
   imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   ubySkill: 'Ruby on rails',
@@ -115,7 +115,7 @@ const projects = [{
 {
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
+  description: 'Coming soon!',
   imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
@@ -179,16 +179,16 @@ seeProjectVar.forEach((item) => {
   <li class="language-background" >${projects[item.id].jsSkill}</li>   
 </ul>
 <p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
-  <div class="mobile-modal-btn display-flex"> 
-  <button class="see-project" type="button">See Live  <img src="images/live.svg" alt="see-live-image"></button></a>
-    <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
+  <div class="mobile-modal-btn display-flex">
+  <a href="${projects[item.id].live}"><button class="see-btn" type="button">See Live<img src="images/live.svg" alt="see-live-image"></button></a> 
+  <a href="${projects[item.id].source}"><button class="see-btn" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button></a> 
   </div> 
    
   <div class="modal-desktop-name-button">
      <h2>${projects[item.id].name}</h2>
      <div desktop-modal-btn> 
-      <button class="see-project desktop-modal-btn" type="button">See Live <img src="images/live.svg" alt="see-live-image"></button>
-      <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
+     <a href="${projects[item.id].live}"><button class="see-btn" type="button">See Live<img src="images/live.svg" alt="see-live-image"></button></a> 
+     <a href="${projects[item.id].source}"><button class="see-btn" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button></a>
      </div> 
  </div>
  <ul class="desktop-modal-skill">
@@ -204,7 +204,6 @@ seeProjectVar.forEach((item) => {
     document.getElementById('modal-main-container-id').appendChild(modalContainer);
 
     const closeBtn = document.querySelectorAll('.close');
-
     closeBtn.forEach((el) => {
       el.addEventListener('click', () => {
         modalContainer.classList.add('hide');
