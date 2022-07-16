@@ -176,7 +176,8 @@ ul {
   color: #3a4a42;
 }
 
-.see-project {
+.see-project,
+.see-btn {
   background-color: #097749;
   padding: 25px;
   border-radius: 4px;
@@ -190,14 +191,16 @@ ul {
   transition-duration: 0.2s;
 }
 
-.see-project:hover {
+.see-project:hover,
+.see-btn:hover {
   background-color: #097749;
   cursor: pointer;
   transform: scale(1.2);
   border: none;
 }
 
-.see-project:focus-visible {
+.see-project:focus-visible,
+.see-btn:focus-visible {
   background-color: #0d5a3d;
   transform: scale(0.9);
 }
@@ -556,7 +559,6 @@ ul {
 
   .modal-container {
     padding: 78px 24px 0 24px;
-    border: 2px solid yellow;
   }
 
   .modal-desktop-name-button {
