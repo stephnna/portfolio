@@ -107,15 +107,15 @@
 </section>
 <footer id="contact"  class="footer">  
      <div class="desktop-flex">
-       <p class="footer-headline">I'm always interested in hearing about new<br>projects, so if you'd like to chat please get in touch.</p>
+       <p class="footer-headline">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     <form id="form" class="form display-flex" action="https://formspree.io/f/mpzbopnv" method="post">
       <label for="full-name"></label>
       <input class="footer-input" id="full-name" type="text" placeholder="Full name" name="full-name" maxlength="30" required>
-      <label for="email"></label>
+      <label for="email"></label>      
       <input class="footer-input" id="email" type="email" placeholder="Email address" name="email" required>
       <label for="text-area"></label>
+      <div id="error-msg"></div>
       <textarea class="footer-input" name="text-area" id="text-area" placeholder="Enter text here" rows="5" maxlength="500" required></textarea>
-      <p id="error-msg" class="error" aria-live="polite"></p>
       <button class="footer-button see-project" type="submit">Get in touch</button>
     </form>
    </div>
