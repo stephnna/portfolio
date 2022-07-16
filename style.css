@@ -103,7 +103,7 @@ body {
 }
 
 .first-name {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -171,7 +171,7 @@ ul {
 }
 
 .multi-text-color {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 24px;
   color: #3a4a42;
 }
@@ -262,11 +262,11 @@ ul {
   background-color: #ebf0ee;
   border-radius: 4px;
   color: #3a4a42;
-  font: 12px;
+  font-size: 12px;
 }
 
 .recent-work-align {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
   text-align: center;
   color: #172b4d;
@@ -302,7 +302,7 @@ ul {
   padding: 12px 0;
   line-height: 52px;
   color: #172b4d;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -312,7 +312,6 @@ ul {
   color: #42526e;
   padding: 0 24px;
   margin-top: 0;
-  font-weight: 400px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -336,7 +335,7 @@ ul {
   border-radius: 4px;
   padding: 12px;
   color: #36b37e;
-  font: 12px;
+  font-size: 12px;
 }
 
 .skill-flex {
@@ -357,7 +356,7 @@ ul {
   text-align: center;
   color: #344563;
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   padding: 0;
 }
 
@@ -367,6 +366,10 @@ ul {
 
 .float-left {
   float: left;
+}
+
+#error-msg {
+  color: red;
 }
 
 .footer {
@@ -542,7 +545,7 @@ ul {
     background-color: #ebf0ee;
     border-radius: 4px;
     color: #3a4a42;
-    font: 12px;
+    font-size: 12px;
   }
 
   .desktop-modal-background {
@@ -610,8 +613,6 @@ ul {
   }
 
   .footer .footer-headline {
-    flex-shrink: 1;
-    flex-shrink: auto;
     font-size: 30px;
     text-align: left;
     margin-right: 0;
