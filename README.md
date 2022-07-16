@@ -6,14 +6,12 @@ Portfolio: Setup and Mobile Version Skeleton
 ## Built With
 
 - figma template
-- Linters
+- Linters, wenhint and Stylint
 - HTML & CSS
 - Javascript 
 
-## Deployment
-
-This project has been deployed with GitHub pages.
-Online version can be viewed through the following link: https://stephnna.github.io/portfolio/
+## Live Demo 
+[Live Demo Link](https://stephnna.github.io/portfolio/)
 
 ## Getting Started
 

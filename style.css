@@ -6,8 +6,17 @@ body {
   padding: 0;
 }
 
-.desktop-nav {
+.desktop-nav,
+.modal-desktop-name-button,
+.hide,
+.desktop-modal-skill {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-modal-description {
+    display: none;
+  }
 }
 
 .welcome {
@@ -94,7 +103,7 @@ body {
 }
 
 .first-name {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -162,7 +171,7 @@ ul {
 }
 
 .multi-text-color {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 24px;
   color: #3a4a42;
 }
@@ -203,15 +212,18 @@ ul {
 }
 
 /* modal css begins */
-
-@media only screen and (max-width: 768px) {
-  .mobile-modal {
-    display: none;
-  }
+.close {
+  cursor: pointer;
+  float: right;
+  padding-top: 32px;
+  margin-right: 30px;
 }
 
 .modal-container {
-  margin: 16px;
+  overflow-y: auto;
+
+  /* height: 100vh; */
+  margin: 0;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -219,19 +231,16 @@ ul {
   right: 0;
   background-color: white;
   transition: 0.4s;
-}
-
-.hide,
-.desktop-modal {
-  display: none;
+  padding: 16px;
 }
 
 .mobile-modal {
-  width: 100%;
-  height: auto;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.modal-container .modal-skill {
+.modal-container .mobile-modal-skill {
   align-items: flex-start;
   padding-left: 0;
   gap: 8px;
@@ -244,7 +253,7 @@ ul {
   color: #344563;
 }
 
-.modal-btn-container {
+.mobile-modal-btn {
   justify-content: space-between;
 }
 
@@ -253,11 +262,11 @@ ul {
   background-color: #ebf0ee;
   border-radius: 4px;
   color: #3a4a42;
-  font: 12px;
+  font-size: 12px;
 }
 
 .recent-work-align {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
   text-align: center;
   color: #172b4d;
@@ -293,7 +302,7 @@ ul {
   padding: 12px 0;
   line-height: 52px;
   color: #172b4d;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -303,7 +312,6 @@ ul {
   color: #42526e;
   padding: 0 24px;
   margin-top: 0;
-  font-weight: 400px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -327,7 +335,7 @@ ul {
   border-radius: 4px;
   padding: 12px;
   color: #36b37e;
-  font: 12px;
+  font-size: 12px;
 }
 
 .skill-flex {
@@ -348,7 +356,7 @@ ul {
   text-align: center;
   color: #344563;
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   padding: 0;
 }
 
@@ -358,6 +366,10 @@ ul {
 
 .float-left {
   float: left;
+}
+
+#error-msg {
+  color: red;
 }
 
 .footer {
@@ -432,7 +444,12 @@ ul {
   .top-header,
   .footer-link,
   .dash-flex,
-  .mobile-menu-header {
+  .mobile-menu-header,
+  .mobile-modal,
+  .mobile-modal-skill,
+  .mobile-modal-title,
+  .mobile-modal-description,
+  .mobile-modal-btn {
     display: none;
     margin-bottom: 0;
   }
@@ -508,13 +525,52 @@ ul {
     padding: 0;
   }
 
-  .desktop-modal {
-    width: 100%;
-    height: auto;
+  /* modal desktop */
+
+  .close {
+    display: block;
+    margin-top: -28px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .desktop-modal-skill {
+    display: flex;
+    padding-left: 0;
+    gap: 8px;
+  }
+
+  .desktop-modal-item {
+    padding: 8px;
+    background-color: #ebf0ee;
+    border-radius: 4px;
+    color: #3a4a42;
+    font-size: 12px;
+  }
+
+  .desktop-modal-background {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .modal-container {
+    padding: 78px 24px 0 24px;
+    border: 2px solid yellow;
+  }
+
+  .modal-desktop-name-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
   }
 
   .about-container .about-me {
     background-image: none;
+  }
+
+  .desktop-modal-btn {
+    margin-right: 12px;
   }
 
   .about-container .about-me-background-image-1 {
@@ -557,8 +613,6 @@ ul {
   }
 
   .footer .footer-headline {
-    flex-shrink: 1;
-    flex-shrink: auto;
     font-size: 30px;
     text-align: left;
     margin-right: 0;

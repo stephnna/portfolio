@@ -7,11 +7,12 @@ hamBurger.addEventListener('click', () => {
 });
 
 // creating first card item i.e grid project
-const project1 = {
+
+const projects = [{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+  imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
   cssSkill: 'css',
@@ -26,35 +27,12 @@ const project1 = {
   live: 'https://stephnna.github.io/portfolio/',
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-};
-
-const project2 = {
+},
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  rubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
-  seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-
-};
-
-const project3 = {
-  closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+  imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
   cssSkill: 'css',
@@ -70,34 +48,12 @@ const project3 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
-
-const project4 = {
+},
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  rubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
-  seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-};
-
-const project5 = {
-  closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+  imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
   cssSkill: 'css',
@@ -113,13 +69,12 @@ const project5 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
-
-const project6 = {
+},
+{
   closeButton: 'images/modal-close-button.svg',
   name: 'Keeping track of hundreds of components',
   description: 'Multi-Post Stories<br>Gain+Glory',
-  imageMobile: 'https://s3-alpha-sig.figma.com/img/b78a/08f8/8874319d3865bd07c14715a7978db1b9?Expires=1653264000&Signature=TWI5vpy4KVYovInyT9RhE1ybwfSBwAtDzppE4WiqRVoEyy~VlKn8ui9H4Zyu~aNfbMLWL1Htt6l0VxEWGlJYZSZETnhPWZYoNxeiKt2plVGwNsg~Mrhc~3eXkxyM1IHCFaW8QYXu4yjIDlWU06yBgoEQ1rZQHoae9x5205FkfT3I~93xpOnui9UFYjJe2ynGSohuzKLH9fx-z8RGdZF97nc1fl8ca2CuEGqReTGQuJI1QdLGxSyIA~sCTjG0ZPuzq~dVLG2DTuwqA7DAqJArANZlcZZUxv2Xx2g2VPpWVJU8HXPBn16DGQTQw52SpT3fW7sWM5se9vrNk8kzgfRLAw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+  imageMobile: 'images/modal-mobile-background.png',
   imageDesktop: 'images/modal-desktop-backgroun.png',
   rubySkill: 'Ruby on rails',
   cssSkill: 'css',
@@ -135,11 +90,50 @@ const project6 = {
   source: 'https://github.com/stephnna/portfolio',
   modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-};
+},
+{
+  closeButton: 'images/modal-close-button.svg',
+  name: 'Keeping track of hundreds of components',
+  description: 'Multi-Post Stories<br>Gain+Glory',
+  imageMobile: 'images/modal-mobile-background.png',
+  imageDesktop: 'images/modal-desktop-backgroun.png',
+  ubySkill: 'Ruby on rails',
+  cssSkill: 'css',
+  jsSkill: 'JavaScript',
+  htmlSkill: 'html',
+  CodeKit: 'Codekit',
+  gitHub: 'GitHub',
+  boostrap: 'Boostrap',
+  terminal: 'Terminal',
+  codePen: 'Codepen',
+  seeProject: 'See Project',
+  live: 'https://stephnna.github.io/portfolio/',
+  source: 'https://github.com/stephnna/portfolio',
+  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-// creating objets that holds the card information
+},
+{
+  closeButton: 'images/modal-close-button.svg',
+  name: 'Keeping track of hundreds of components',
+  description: 'Multi-Post Stories<br>Gain+Glory',
+  imageMobile: 'images/modal-mobile-background.png',
+  imageDesktop: 'images/modal-desktop-backgroun.png',
+  rubySkill: 'Ruby on rails',
+  cssSkill: 'css',
+  jsSkill: 'JavaScript',
+  htmlSkill: 'html',
+  CodeKit: 'Codekit',
+  gitHub: 'GitHub',
+  boostrap: 'Boostrap',
+  terminal: 'Terminal',
+  codePen: 'Codepen',
+  seeProject: 'See Project',
+  live: 'https://stephnna.github.io/portfolio/',
+  source: 'https://github.com/stephnna/portfolio',
+  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
 
-const projects = [project1, project2, project3, project4, project5, project6];
+},
+];
 
 const sectionElement = document.getElementById('projects-container');
 sectionElement.className = 'container-recent';
@@ -174,20 +168,38 @@ seeProjectVar.forEach((item) => {
     const modalContainer = document.createElement('section');
     modalContainer.className = 'modal-container';
     modalContainer.id = 'modal-container-id';
-    modalContainer.innerHTML = `
-    <img class="close" src="${projects[item.id].closeButton}" alt="">
-    <img class="mobile-modal" src="${projects[item.id].imageMobile}" alt="">
-    <img class="desktop-modal" src="${projects[item.id].imageDesktop}" alt="">
- <h2>${projects[item.id].name}</h2>
- <ul class="modal-skill display-flex">
+    modalContainer.innerHTML = `  
+    <div><img class="close" src="${projects[item.id].closeButton}" alt="close-button"></div>
+    <div class="mobile-modal" style="background-image: url(${projects[item.id].imageMobile});"></div>
+    <div class="desktop-modal-background" style="background-image: url(${projects[item.id].imageDesktop});"></div>
+ <h2 class="mobile-modal-title">${projects[item.id].name}</h2>
+ <ul class="mobile-modal-skill display-flex">
   <li class="language-background">${projects[item.id].rubySkill}</li>
   <li class="language-background">${projects[item.id].cssSkill}</li>
   <li class="language-background" >${projects[item.id].jsSkill}</li>   
 </ul>
 <p class="mobile-modal-description">${projects[item.id].modalDescription}</p>
-  <div class="modal-btn-container display-flex"><button class="see-project" type="button">See Live</button>
-    <button class="see-project" type="button">See Source</button></div> 
-       
+  <div class="mobile-modal-btn display-flex"> 
+  <button class="see-project" type="button">See Live  <img src="images/live.svg" alt="see-live-image"></button></a>
+    <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
+  </div> 
+   
+  <div class="modal-desktop-name-button">
+     <h2>${projects[item.id].name}</h2>
+     <div desktop-modal-btn> 
+      <button class="see-project desktop-modal-btn" type="button">See Live <img src="images/live.svg" alt="see-live-image"></button>
+      <button class="see-project" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button>
+     </div> 
+ </div>
+ <ul class="desktop-modal-skill">
+  <li class="desktop-modal-item">${projects[item.id].CodeKit}</li>
+  <li class="desktop-modal-item">${projects[item.id].gitHub}</li>
+  <li class="desktop-modal-item">${projects[item.id].jsSkill}</li>
+  <li class="desktop-modal-item">${projects[item.id].boostrap}</li> 
+  <li class="desktop-modal-item">${projects[item.id].terminal}</li>
+  <li class="desktop-modal-item">${projects[item.id].codePen}</li>        
+</ul>
+<p class="desktop-modal-description">${projects[item.id].modalDescription}</p>       
     `;
     document.getElementById('modal-main-container-id').appendChild(modalContainer);
 
@@ -202,11 +214,11 @@ seeProjectVar.forEach((item) => {
 });
 
 // form validation
-
 const email = document.querySelector('#email');
+const form = document.querySelector('#form');
+const error = document.querySelector('#error-msg');
 
 // local storage
-
 const userName = document.querySelector('#full-name');
 const userMsg = document.querySelector('#text-area');
 
@@ -230,3 +242,18 @@ if (userDataObject) {
   email.value = userDataObject.Email;
   userMsg.value = userDataObject.Message;
 }
+error.style.visibility = 'hidden';
+
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    error.style.visibility = 'visible';
+    error.innerHTML = 'Email must be lowercase letters!';
+
+    setTimeout(() => {
+      error.style.visibility = 'hidden';
+    }, 4000);
+  } else {
+    error.style.visibility = 'hidden';
+  }
+});
