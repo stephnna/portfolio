@@ -218,6 +218,30 @@ const email = document.querySelector('#email');
 const form = document.querySelector('#form');
 const error = document.querySelector('#error-msg');
 
+// local storage
+const userName = document.querySelector('#full-name');
+const userMsg = document.querySelector('#text-area');
+
+function dataStorage() {
+  const visitor = {
+    Name: userName.value,
+    Email: email.value,
+    Message: userMsg.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
+
+userName.addEventListener('focusout', dataStorage);
+email.addEventListener('focusout', dataStorage);
+userMsg.addEventListener('focusout', dataStorage);
+
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
+
+if (userDataObject) {
+  userName.value = userDataObject.Name;
+  email.value = userDataObject.Email;
+  userMsg.value = userDataObject.Message;
+}
 error.style.visibility = 'hidden';
 
 form.addEventListener('submit', (event) => {
