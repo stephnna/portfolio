@@ -177,6 +177,7 @@ ul {
 }
 
 .see-project,
+.get-in-touch,
 .see-btn {
   background-color: #097749;
   padding: 25px;
@@ -192,6 +193,7 @@ ul {
 }
 
 .see-project:hover,
+.get-in-touch,
 .see-btn:hover {
   background-color: #097749;
   cursor: pointer;
@@ -200,6 +202,7 @@ ul {
 }
 
 .see-project:focus-visible,
+.get-in-touch:focus-visible,
 .see-btn:focus-visible {
   background-color: #0d5a3d;
   transform: scale(0.9);
