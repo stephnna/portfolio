@@ -153,16 +153,14 @@ ul {
 }
 
 
-.container-recent > .grid-project {
-  background-color: #d0d9d4;
+.container-recent > .grid-project {  
   border-radius: 8px;
-  margin: 24px;
+  margin: 16px;
   flex-direction: column;
-  text-align: center;
-  padding: 252px 1.5px 1.5px 1.5px;
+  text-align: center;  
   font-weight: 600;
-  line-height: 32px; 
-     
+  line-height: 32px;
+  border: 0.01px solid  #36b37e;      
 }
 
 .container-recent > .grid-project,
@@ -174,12 +172,17 @@ ul {
 .container-recent > .grid-project:hover,
 .grid-frame-skill > .grid-child-frame-skill:hover
 {
-  transform: scale(1.2);
+  transform: scale(1.05);
+}
+
+.project-image { 
+  height: 300px; 
+  background-size: 100% 100%;  
 }
 
 
 .multi-post {
-  background-color: white;
+  background-color: white;    
   border-radius: 8px;
   padding: 0;
   margin: 0;
@@ -543,7 +546,7 @@ ul {
   .container-recent {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    padding: 0 142px 143px;
+    padding: 0 32px;
   }
 
   .container-recent .language {

@@ -32,7 +32,7 @@ const projects = [{
   closeButton: 'images/modal-close-button.svg',
   name: 'E Meal',
   description: 'E Meal',
-  imageMobile: '',
+  imageMobile: 'images/meal_mobile.png',
   imageDesktop: 'images/meal-screnshot.png',
   rubySkill: 'JavaScript',
   cssSkill: 'css',
@@ -53,7 +53,7 @@ const projects = [{
   closeButton: 'images/modal-close-button.svg',
   name: 'Math Magicians',
   description: 'Math Magicians',
-  imageMobile: '',
+  imageMobile: 'images/calculator_mobile.png',
   imageDesktop: 'images/calculator-sreenshot.png',
   rubySkill: 'React',
   cssSkill: 'Node.js',
@@ -93,24 +93,45 @@ const projects = [{
 },
 {
   closeButton: 'images/modal-close-button.svg',
-  name: 'Keeping track of hundreds of components',
-  description: 'Coming soon!',
+  name: 'Online Hotel Booking',
+  description: 'Online Hotel Booking',
   imageMobile: 'images/modal-mobile-background.png',
-  imageDesktop: 'images/modal-desktop-backgroun.png',
-  ubySkill: 'Ruby on rails',
-  cssSkill: 'css',
-  jsSkill: 'JavaScript',
-  htmlSkill: 'html',
-  CodeKit: 'Codekit',
-  gitHub: 'GitHub',
-  boostrap: 'Boostrap',
-  terminal: 'Terminal',
-  codePen: 'Codepen',
+  imageDesktop: 'images/hotel-modal-desktop.png',
+  rubySkill: 'Ruby on rails',
+  cssSkill: 'Ruby',
+  jsSkill: 'PosgreSQL',
+  htmlSkill: 'React',
+  CodeKit: 'Ruby',
+  gitHub: 'Ruby on rails',
+  boostrap: 'React',
+  terminal: 'Javascript',
+  codePen: 'Redux',
   seeProject: 'See Project',
-  live: 'https://stephnna.github.io/portfolio/',
-  source: 'https://github.com/stephnna/portfolio',
-  modalDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi inventore ex aut voluptatum eaque a repellendus animi dolore sed  temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam,iusto consequatur eum ad temporibus autem amet quod, tempore architecto vitae aspernatur minima aliquid  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt amet eligendi voluptatum mollitia autem, veritatis dicta doloremque nulla quibusdam, iusto consequatur eum ad deleniti tempora et atque nihil voluptate veniam?',
-
+  live: 'https://hotel-frontend-rosy.vercel.app/',
+  source: 'https://github.com/t-bello7/hotel-backend',
+  modalDescription: `Tha goal of this project are as follows:
+  Apply technical knowledge and skills gained in previous modules in a complex project.
+  Understand pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
+  Understand principles of Ruby on Rails and React frameworks.
+  Apply Ruby best practices and language style guides in code.
+  Apply RoR best practices and language style guides in code (e.g. thin controllers).
+  Apply JavaScript best practices and language style guides in code.
+  Apply React best practices and language style guides in code.
+  Learn about and practice giving constructive feedback to teammates.
+  Perform a code review for a team member.
+  Use the "Review change"" feature from GitHub.
+  Write clear, professional, and respectful review comments for other team members.
+  Explain "why" a change is requested when giving a code review.
+  Plan a 2+ week project with no interim Microverse-set milestones and submit it on time.
+  Apply knowledge of setting working agreements to set group project teams up for success.
+  Independently implement best practices for group agreements to improve teamwork in larger group project.
+  Demonstrate ability to apply best practices of communication for resolving teamwork challenges.
+  Understand that respect is the foundation of strong relationship-building with teammates.
+  Show up throughout group projects as a reliable and committed team member who communicates and manages your time effectively.
+  Recognize the importance of investing in good working relationships with teammates.
+  Understand principles of strong teamwork (being reliable, committed, and consistent) and how to apply them in group projects.
+  Recognize the value of making equal contributions to group projects to produce the best outcome.
+  Use empty Kanban board to manage tasks with team and own time on the project.`,
 },
 {
   closeButton: 'images/modal-close-button.svg',
@@ -146,6 +167,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
 Array.from(sectionElement.children).forEach((child, index) => {
   child.innerHTML = `
+    <div class="project-image" style="background-image: url(${projects[index].imageMobile});"></div>
     <div class="multi-post">
     <h3 class="multi-text-color">${projects[index].description}</h3>
      <ul class="language display-flex">
