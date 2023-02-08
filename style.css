@@ -149,8 +149,9 @@ ul {
 .container-recent {
   display: grid;
   padding: 0;
-  margin: 0;
+  margin: 0;  
 }
+
 
 .container-recent > .grid-project {
   background-color: #d0d9d4;
@@ -160,8 +161,22 @@ ul {
   text-align: center;
   padding: 252px 1.5px 1.5px 1.5px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 32px; 
+     
 }
+
+.container-recent > .grid-project,
+.grid-frame-skill > .grid-child-frame-skill 
+{
+  transition-duration: 1.5s; 
+}
+
+.container-recent > .grid-project:hover,
+.grid-frame-skill > .grid-child-frame-skill:hover
+{
+  transform: scale(1.2);
+}
+
 
 .multi-post {
   background-color: white;
@@ -491,12 +506,17 @@ ul {
 
   .desktop-nav-list {
     margin-right: 24px;
+    transition-duration: .2s; 
+  }
+
+  .desktop-nav-list:hover{
+    transform: scale(1.5);
   }
 
   .text-color {
     color: #172b4d;
     font-weight: bold;
-    transition: color linear 0.2s;
+    transition: color linear 0.5s;
   }
 
   .desktop-nav-list:hover {
