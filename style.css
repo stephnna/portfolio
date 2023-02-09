@@ -128,8 +128,7 @@ body {
   gap: 18px; 
 }
 
-.intro .intro-message .paragraph {
-  padding: 0 200px;
+.intro .intro-message .paragraph {  
   font-size: 20px;
   margin: 0 24px;
   color: #172b4d;
@@ -220,9 +219,12 @@ ul {
   line-height: 0.03em;
   transition-duration: 0.2s;
 }
+.get-resume a {
+  color: white;
+}
 
 .see-project:hover,
-.get-in-touch,
+.get-in-touch:hover,
 .see-btn:hover {
   background-color: #097749;
   cursor: pointer;
@@ -503,6 +505,7 @@ ul {
   }
 
   .intro .intro-message .paragraph {
+    padding: 0 200px;
     font-size: 20px;
     color: #172b4d;
   }
@@ -655,10 +658,9 @@ ul {
     text-align: left;
     margin-right: 0;
     padding-right: 0;
-  }
+  } 
 
-  .footer .desktop-flex .form {
-    flex-grow: 2;
+  .footer .desktop-flex .form {   
     margin-bottom: 0;
     margin-top: 60px;
   }
