@@ -6,7 +6,7 @@ Portfolio: Setup and Mobile Version Skeleton
 ## Built With
 
 - figma template
-- Linters, wenhint and Stylint
+- Linters, wenhint, Eslint and Stylint
 - HTML & CSS
 - Javascript 
 
@@ -18,10 +18,7 @@ Portfolio: Setup and Mobile Version Skeleton
 The goal of this project is to:
 - Understand how to parse a Figma design to create a User Interface.
 
-
-
-
-- Flexbox to place elements in the page.
+- use Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
 
