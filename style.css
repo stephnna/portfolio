@@ -69,7 +69,13 @@ body {
   padding-top: 106px;
   transition: 0.4s;
 }
+.flex-item {
+  transition-duration: 0.5s;
+}
 
+.flex-item:hover {
+  transform: scale(2);
+}
 .is-active .mobile-menu {
   left: 0;
 
@@ -111,6 +117,7 @@ body {
   color: #36b37e;
 }
 
+
 .social {
   justify-content: center;
   align-items: center;
@@ -118,10 +125,11 @@ body {
   list-style-type: none;
   color: #505f79;
   padding: 0;
-  gap: 18px;
+  gap: 18px; 
 }
 
 .intro .intro-message .paragraph {
+  padding: 0 200px;
   font-size: 20px;
   margin: 0 24px;
   color: #172b4d;
@@ -144,6 +152,7 @@ ul {
   list-style-type: none;
 }
 
+
 /* Recent Work Session */
 
 .container-recent {
@@ -154,8 +163,9 @@ ul {
 
 
 .container-recent > .grid-project {  
-  border-radius: 8px;
-  margin: 16px;
+  border-radius: 12px;
+  padding: 0;
+  margin: 12px;
   flex-direction: column;
   text-align: center;  
   font-weight: 600;
@@ -164,7 +174,7 @@ ul {
 }
 
 .container-recent > .grid-project,
-.grid-frame-skill > .grid-child-frame-skill 
+.grid-frame-skill > .grid-child-frame-skill
 {
   transition-duration: 1.5s; 
 }
@@ -176,6 +186,7 @@ ul {
 }
 
 .project-image { 
+  border-radius: 12px;
   height: 300px; 
   background-size: 100% 100%;  
 }
@@ -183,7 +194,7 @@ ul {
 
 .multi-post {
   background-color: white;    
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0;
   margin: 0;
 }
@@ -545,8 +556,8 @@ ul {
 
   .container-recent {
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    padding: 0 32px;
+    grid-template-rows: auto auto;   
+    padding: 0 16px;    
   }
 
   .container-recent .language {
@@ -613,12 +624,11 @@ ul {
   }
 
   .about-container .about-background-desktop-image-2 .about-message {
-    padding: 0 220px;
+    padding: 0 220px;   
   }
 
   .grid-frame-skill {
-    grid-template-columns: auto auto auto;
-    padding: 0 142px 143px;
+    grid-template-columns: auto auto;   
     margin: 0;
   }
 
@@ -700,9 +710,10 @@ ul {
     background-color: #dfe1e6;
     margin-top: 20px;
   }
-
+  
+ 
   .footer .social .flex-item:nth-of-type(1) {
-    order: 4;
+    order: 4;    
   }
 
   .footer .social .flex-item:nth-of-type(2) {
