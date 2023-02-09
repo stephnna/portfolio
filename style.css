@@ -70,6 +70,14 @@ body {
   transition: 0.4s;
 }
 
+.flex-item {
+  transition-duration: 0.5s;
+}
+
+.flex-item:hover {
+  transform: scale(2);
+}
+
 .is-active .mobile-menu {
   left: 0;
 
@@ -144,6 +152,7 @@ ul {
   list-style-type: none;
 }
 
+
 /* Recent Work Session */
 
 .container-recent {
@@ -153,14 +162,22 @@ ul {
 }
 
 .container-recent > .grid-project {
-  background-color: #d0d9d4;
-  border-radius: 8px;
-  margin: 24px;
+  border-radius: 12px;
+  padding: 0;
+  margin: 12px;
   flex-direction: column;
   text-align: center;
-  padding: 252px 1.5px 1.5px 1.5px;
   font-weight: 600;
   line-height: 32px;
+  border: 0.01px solid  #36b37e;
+}
+
+.grid-frame-skill > .grid-child-frame-skill {
+  background-color: #c1c7d0;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 40px;
+  margin: 24px;
 }
 
 .container-recent > .grid-project,
@@ -170,12 +187,18 @@ ul {
 
 .container-recent > .grid-project:hover,
 .grid-frame-skill > .grid-child-frame-skill:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
+}
+
+.project-image {
+  border-radius: 12px;
+  height: 300px;
+  background-size: 100% 100%;
 }
 
 .multi-post {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0;
   margin: 0;
 }
@@ -202,8 +225,12 @@ ul {
   transition-duration: 0.2s;
 }
 
+.get-resume a {
+  color: white;
+}
+
 .see-project:hover,
-.get-in-touch,
+.get-in-touch:hover,
 .see-btn:hover {
   background-color: #097749;
   cursor: pointer;
@@ -336,14 +363,6 @@ ul {
   display: grid;
   padding: 0;
   margin-bottom: 0;
-}
-
-.grid-frame-skill > .grid-child-frame-skill {
-  background-color: #c1c7d0;
-  border-radius: 8px;
-  text-align: center;
-  padding-top: 40px;
-  margin: 24px;
 }
 
 .frame-skill-background {
@@ -484,6 +503,7 @@ ul {
   }
 
   .intro .intro-message .paragraph {
+    padding: 0 200px;
     font-size: 20px;
     color: #172b4d;
   }
@@ -509,16 +529,13 @@ ul {
 
   .desktop-nav-list:hover {
     transform: scale(1.5);
+    color: #36b37e;
   }
 
   .text-color {
     color: #172b4d;
     font-weight: bold;
     transition: color linear 0.5s;
-  }
-
-  .desktop-nav-list:hover {
-    color: #36b37e;
   }
 
   .text-color:hover {
@@ -538,7 +555,7 @@ ul {
   .container-recent {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    padding: 0 142px 143px;
+    padding: 0 16px;
   }
 
   .container-recent .language {
@@ -609,8 +626,7 @@ ul {
   }
 
   .grid-frame-skill {
-    grid-template-columns: auto auto auto;
-    padding: 0 142px 143px;
+    grid-template-columns: auto auto;
     margin: 0;
   }
 
@@ -640,7 +656,6 @@ ul {
   }
 
   .footer .desktop-flex .form {
-    flex-grow: 2;
     margin-bottom: 0;
     margin-top: 60px;
   }
