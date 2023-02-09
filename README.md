@@ -6,7 +6,7 @@ Portfolio: Setup and Mobile Version Skeleton
 ## Built With
 
 - figma template
-- Linters, wenhint and Stylint
+- Linters, wenhint, Eslint and Stylint
 - HTML & CSS
 - Javascript 
 
