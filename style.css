@@ -162,7 +162,7 @@ ul {
 .container-recent > .grid-project {
   border-radius: 12px;
   padding: 0;
-  margin: 12px;
+  margin: 24px;
   flex-direction: column;
   text-align: center;
   font-weight: 600;
@@ -190,7 +190,7 @@ ul {
 
 .project-image {
   border-radius: 12px;
-  height: 300px;
+  height: 250px;
   background-size: 100% 100%;
 }
 
@@ -359,7 +359,7 @@ ul {
 
 .grid-frame-skill {
   display: grid;
-  padding: 0;
+  padding: 0 52px;
   margin-bottom: 0;
 }
 

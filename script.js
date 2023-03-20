@@ -77,7 +77,7 @@ const projects = [
     name: 'SkillHub Academy',
     description: 'Online Skillhub Academy',
     imageMobile: 'images/skillhub-mobile.png',
-    imageDesktop: 'images/skillhub-desktop.png',
+    imageDesktop: 'images/skillhub_desktop.png',
     rubySkill: 'JavaScript',
     cssSkill: 'css',
     jsSkill: 'Git',
@@ -210,8 +210,8 @@ seeProjectVar.forEach((item) => {
   <div class="modal-desktop-name-button">
      <h2>${projects[item.id].name}</h2>
      <div desktop-modal-btn> 
-     <a href="${projects[item.id].live}"><button class="see-btn" type="button">See Live<img src="images/live.svg" alt="see-live-image"></button></a> 
-     <a href="${projects[item.id].source}"><button class="see-btn" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button></a>
+     <a target='_blank' href="${projects[item.id].live}"><button class="see-btn" type="button">See Live<img src="images/live.svg" alt="see-live-image"></button></a> 
+     <a target='_blank' href="${projects[item.id].source}"><button class="see-btn" type="button">See Source <img src="images/github-image.svg" alt="github-image"></button></a>
      </div> 
  </div>
  <ul class="desktop-modal-skill">
