@@ -1,7 +1,6 @@
 ## Project Name
 
-Portfolio: Setup and Mobile Version Skeleton
-
+Portfolio
 
 ## Built With
 
